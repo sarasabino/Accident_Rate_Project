@@ -51,9 +51,13 @@ At first it seems this results were good because the accuracy of the model is 0.
 In order to achieve better results we did a GridSearchCV to find the best hiperparameters for our model. 
 To solve our problem with the minority class 'Yes', we tried to assign proportionally calculated weights to the model but it delivered bad results as well. The second option that we tried was to oversample the minority class to balance our classes and achieve better results.
 
-First results achieved: accuracy of 0.8 but with a 0 for the 'Yes' class.
-
+First result obtained:
+- accuracy : 0.82
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/first_decision_tree_cm.PNG)
+
+Applying the best parameters by the GridSearchCV and without the balanced dataset: accuracy of 0.8 but with a 0 for the 'Yes' class.
+- accuracy : 0.80
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/decision tree_second.PNG)
 
 Latest results obtained with the oversample technique and hiperparameter optimization:
 
@@ -69,7 +73,9 @@ Althought the total accuracy of the model has decreased we achieved to got almos
 
 As we have seen that the models need to be balanced, we have performed the random forest with the balanced data from previous steps.
 
-We have also performed a GridSearchCv to try get the best results we can get. In this model we achieved the following results:
+We have also performed a GridSearchCv to try get the best results we can get, although we couldnt increase the first results obtained.
+
+In this model we achieved the following results:
 
 - accuracy: 0.76
 - precision 'No' : 0.79
@@ -80,6 +86,8 @@ We have also performed a GridSearchCv to try get the best results we can get. In
 
 #### XGBoost
 
+We applied a GridSearchCV to find the best parameters, the results obtained were the following ones:
+
 - accuracy : 0.76
 - precision 'No' : 0.79
 - precision 'Yes' : 0.74
@@ -87,7 +95,8 @@ We have also performed a GridSearchCv to try get the best results we can get. In
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/xgboost_cm.PNG)
 
 #### SVM: Support Vector Machine
-
+As SVM works well with small datasets and not awesome with large ones and it will take forever to optimize with cross validations, we downsample both categories to see how it will perform. 
+We reduced both labels to 1000, having a total dataset of 2000.
 Performing the GridSearchCV to find the best parameters we have increase a little bit the model's metrics.
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/svm_cm.PNG)
