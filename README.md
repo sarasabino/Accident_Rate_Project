@@ -27,6 +27,13 @@ need to oversample data
 
 We are going to try multiple machine learning models and see which one has better metrics when predicting if an employee is going to have an accident or not. Below we are going to detail the models and its parameters as well as its results.
 
+In order to compare the results between models we are going to analyze the following metrics:
+
+- Accuracy: is the number of correctly predicted data points out of all the data points.
+- Precision: is the ratio of correctly predicted positive observations to the total predicted positive observations.
+
+Both metrics are important for our models as we need to be sure that we have a good precision in both classe, it is crucial to identify those 'yes' classes.
+
 #### Logistic Regression
 
 At first it seems this results were good because the accuracy of the model is 0.89, but if we focus on the performance with the 'Yes' label is 0, so the model is always predicting 'No'. We need to improve that prediction by balancing the dataset and running again the model.
@@ -104,10 +111,14 @@ Performing the GridSearchCV to find the best parameters we have increase a littl
 
 ### Applying Deep Learning: Neural Networks
 
+In order to evaluate the neural networks models we are going to perform the following metrics:
+- Categorical accuracy: is the number of correctly predicted data points out of all the data points.
+- Loss: determine how far the predicted values deviate from the actual values in the trainning data.
+
 Before normalizing the data the neural network delivered very bad metrics after normalizing the data and try to combine the parameters to obtain the best results we have obtained the following metrics:
 
-- accuracy: 0.90
-- loss: 0.39
+- Categorical accuracy: 0.90
+- Loss: 0.39
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neuraln_loss.PNG)
 
