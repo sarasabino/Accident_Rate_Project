@@ -21,18 +21,44 @@ Sara Sabino Martínez
 
 ### Feature understanding and selection
 
+need to oversample data
+
 ### Seeking best Machine Learning model
 
+We are going to try multiple machine learning models and see which one has better metrics when predicting if an employee is going to have an accident or not. Below we are going to detail the models and its parameters as well as its results.
+
 #### Logistic Regression
+
+- accuracy: 0.89
+- precision "No" : 0.80
+- precision 'Yes': 0
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/logistic_regression_cm.PNG)
 
 
 #### K Nearest Neighbors
 
+- accuracy: 0.80
+- precision 'No' : 0.84
+- precision 'Yes': 0.49
+
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neighbors_cm.PNG)
 
 #### Decision Tree
+
+In order to achieve better results we did a GridSearchCV to find the best hiperparameters for our model. 
+To solve our problem with the minority class 'Yes', we tried to assign proportionally calculated weights to the model but it delivered bad results as well. The second option that we tried was to oversample the minority class to balance our classes and achieve better results.
+
+First results achieved: accuracy of 0.8 but with a 0 for the 'Yes' class.
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/first_decision_tree_cm.PNG)
+
+Latest results obtained with the oversample technique and hiperparameter optimization:
+
+- accuracy: 0.76
+- precision 'No' : 0.79
+- precision 'Yes' : 0.74
+
+Althought the total accuracy of the model has decreased we achieved to got almost the same accuracy for both classes.
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/decision_tree_cm.PNG)
 
@@ -65,10 +91,6 @@ https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/0
 
 * Python
 * Streamlit
----
 
 
-
-
----
 ⌨️ with ❤️ by [sarasabino](https://github.com/sarasabino) 😊
