@@ -1,0 +1,719 @@
+﻿ID;Fabrica;Activo;Tecnología;Pais;lat;lon
+1;Argentina;1;Blanking;Argentina;-38.416097;-63.616672
+2;Argentina;1;Corte Longitudinal;Argentina;-38.416097;-63.616672
+3;Argentina;1;Corte Transversal;Argentina;-38.416097;-63.616672
+4;Arizona;1;Células Soldadura;EEUU;37.09;-95.71
+5;Arizona;1;Corte Láser;EEUU;37.09;-95.71
+6;Arizona;1;Tubos;EEUU;37.09;-95.71
+7;Barcelona;1;Cizalla;España;40.46;-3.74
+8;Barcelona;1;Corte Longitudinal;España;40.46;-3.74
+9;Barcelona;1;Corte Transversal;España;40.46;-3.74
+10;Barcelona;1;Electrozincado;España;40.46;-3.74
+11;Barcelona;1;Galvanizado continuo;España;40.46;-3.74
+12;Barcelona;1;Skinpass;España;40.46;-3.74
+13;Burgos;1;Blanking;España;40.46;-3.74
+14;Burgos;1;Cizalla;España;40.46;-3.74
+15;Burgos;1;Corte Longitudinal;España;40.46;-3.74
+16;Burgos;1;Corte Transversal;España;40.46;-3.74
+17;Burgos;1;Decapado;España;40.46;-3.74
+18;Burgos;1;Laminado;España;40.46;-3.74
+19;Burgos;1;Recocido;España;40.46;-3.74
+20;Burgos;1;Skinpass;España;40.46;-3.74
+21;Campinas;1;Cizalla;Brasil;-14.23;-51.92
+22;Campinas;1;Corte Longitudinal;Brasil;-14.23;-51.92
+23;Campinas;1;Corte Transversal;Brasil;-14.23;-51.92
+24;Campinas;1;Decapado;Brasil;-14.23;-51.92
+25;Campinas;1;Prensa;Brasil;-14.23;-51.92
+26;Campinas;1;Skinpass;Brasil;-14.23;-51.92
+27;Czech;1;Corte Láser 3D;Rep.Checa;49.81;15.47
+28;Galicia;1;Blanking;España;40.46;-3.74
+29;Galicia;1;Corte Longitudinal;España;40.46;-3.74
+30;Galicia;1;Corte Transversal;España;40.46;-3.74
+31;Gonvauto Asturias;1;Corte Láser;España;40.46;-3.74
+32;Gonvauto Asturias;1;Sierra;España;40.46;-3.74
+33;Gonvauto Asturias;1;Tubos;España;40.46;-3.74
+34;Gonvauto Barcelona;1;Blanking;España;40.46;-3.74
+35;Gonvauto Barcelona;1;Corte Transversal;España;40.46;-3.74
+36;Dongguan;1;Blanking;China;35.86;104.19
+37;Dongguan;1;Maquinaria Auxiliar;China;35.86;104.19
+38;Hiasa;1;Aplanadora;España;40.46;-3.74
+39;Hiasa;1;Células Soldadura;España;40.46;-3.74
+40;Hiasa;1;Cizalla;España;40.46;-3.74
+41;Hiasa;1;Corte Láser;España;40.46;-3.74
+42;Hiasa;1;Corte Longitudinal;España;40.46;-3.74
+43;Hiasa;1;Corte Plasma;España;40.46;-3.74
+44;Hiasa;1;Corte Transversal;España;40.46;-3.74
+45;Hiasa;1;Decapado;España;40.46;-3.74
+46;Hiasa;1;Galvanizado Inmersión;España;40.46;-3.74
+47;Hiasa;1;Laminado;España;40.46;-3.74
+48;Hiasa;1;Maquinaria Auxiliar;España;40.46;-3.74
+49;Hiasa;1;Perfilado de barrera y postes;España;40.46;-3.74
+50;Hiasa;1;Perfiles abiertos;España;40.46;-3.74
+51;Hiasa;1;Perforado;España;40.46;-3.74
+52;Hiasa;1;Pintura;España;40.46;-3.74
+53;Hiasa;1;Prensa;España;40.46;-3.74
+54;Hiasa;1;Punzonado;España;40.46;-3.74
+55;Hiasa;1;Sierra;España;40.46;-3.74
+56;Hiasa;1;Tubos;España;40.46;-3.74
+57;Kaluga;1;Blanking;Russia;61.52;105.31
+58;Kaluga;1;Corte Longitudinal;Russia;61.52;105.31
+59;Kaluga;1;Corte Transversal;Russia;61.52;105.31
+60;Laser Brandenburg;1;Corte Láser 3D;Rep.Checa;49.81;15.47
+61;Loudi;1;Ablación;China;35.86;104.19
+62;Loudi;1;Blanking;China;35.86;104.19
+63;Loudi;1;Cizalla;China;35.86;104.19
+64;Loudi;1;Corte Láser;China;35.86;104.19
+65;Loudi;1;Tailor Welding;China;35.86;104.19
+66;Navarra;1;Blanking;España;40.46;-3.74
+67;Navarra;1;Corte Longitudinal;España;40.46;-3.74
+68;Navarra;1;Corte Transversal;España;40.46;-3.74
+69;Paraná;1;Cizalla;Argentina;-38.416097;-63.616672
+70;Paraná;1;Corte Transversal;Argentina;-38.416097;-63.616672
+71;Paraná;1;Prensa;Argentina;-38.416097;-63.616672
+72;Polska;1;Blanking;Polonia;51.91;19.14
+73;Polska;1;Cizalla;Polonia;51.91;19.14
+74;Polska;1;Corte Longitudinal;Polonia;51.91;19.14
+75;Polska;1;Corte Transversal;Polonia;51.91;19.14
+76;Portugal;1;Corte Longitudinal;Portugal;39.39;-8.22
+77;Portugal;1;Corte Transversal;Portugal;39.39;-8.22
+78;Puebla;1;Blanking;México;23.63;-102.55
+79;Puebla;1;Cizalla;México;23.63;-102.55
+80;Puebla;1;Corte Longitudinal;México;23.63;-102.55
+81;South Carolina;1;Blanking;EEUU;37.09;-95.71
+82;Tarragona;1;Cizalla;España;40.46;-3.74
+83;Tarragona;1;Corte Longitudinal;España;40.46;-3.74
+84;Tarragona;1;Corte Transversal;España;40.46;-3.74
+85;Tarragona;1;Decapado;España;40.46;-3.74
+86;Thüringen;1;Blanking;Alemania;511.656;104.515
+87;Thüringen;1;Corte Láser 3D;Alemania;511.656;104.515
+88;Thüringen;1;Corte Longitudinal;Alemania;511.656;104.515
+89;Valencia;1;Cizalla;España;40.46;-3.74
+90;Valencia;1;Corte Longitudinal;España;40.46;-3.74
+91;Valencia;1;Corte Plasma;España;40.46;-3.74
+92;Valencia;1;Corte Transversal;España;40.46;-3.74
+93;Valencia;0;Decapado;España;40.46;-3.74
+94;Valencia;1;Limpieza/Prepintado;España;40.46;-3.74
+95;Valencia;1;Maquinaria Auxiliar;España;40.46;-3.74
+96;Valencia;0;Plastificado;España;40.46;-3.74
+97;Valencia;1;Prensa;España;40.46;-3.74
+98;Valencia;1;Skinpass;España;40.46;-3.74
+99;Valencia;1;Oficinas administrativas;España;40.46;-3.74
+100;Barcelona;1;Almacén de Materia Prima;España;40.46;-3.74
+101;Burgos;1;Almacén de Materia Prima;España;40.46;-3.74
+102;Tarragona;1;Almacén de Materia Prima;España;40.46;-3.74
+103;Valencia;1;Almacén de Materia Prima;España;40.46;-3.74
+104;Portugal;1;Almacén de Materia Prima;Portugal;39.39;-8.22
+105;Union Street;1;Almacén de Materia Prima;UK;55.37;-3.43
+106;Laser Barcelona;1;Almacén de Materia Prima;España;40.46;-3.74
+107;Laser Valencia;1;Almacén de Materia Prima;España;40.46;-3.74
+108;Gonvauto Barcelona;1;Almacén de Materia Prima;España;40.46;-3.74
+109;Navarra;1;Almacén de Materia Prima;España;40.46;-3.74
+110;Galicia;1;Almacén de Materia Prima;España;40.46;-3.74
+111;Hiasa;1;Almacén de Materia Prima;España;40.46;-3.74
+112;Gonvauto Asturias;1;Almacén de Materia Prima;España;40.46;-3.74
+113;Baja California;1;Almacén de Materia Prima;EEUU;37.09;-95.71
+114;Çepas;1;Almacén de Materia Prima;Turquía;38.96;35.24
+115;Colombia;1;Almacén de Materia Prima;Colombia;4.57;-74.29
+116;Thüringen;1;Almacén de Materia Prima;Alemania;511.656;104.515
+117;Polska;1;Almacén de Materia Prima;Polonia;51.91;19.14
+118;Senica;1;Almacén de Materia Prima;Eslovaquia;48.66;19.69
+119;Kaluga;1;Almacén de Materia Prima;Russia;61.52;105.31
+120;Czech;1;Almacén de Materia Prima;Rep.Checa;49.81;15.47
+121;Laser Brandenburg;1;Almacén de Materia Prima;Rep.Checa;49.81;15.47
+122;Puebla;1;Almacén de Materia Prima;México;23.63;-102.55
+123;South Carolina;1;Almacén de Materia Prima;EEUU;37.09;-95.71
+124;Argentina;1;Almacén de Materia Prima;Argentina;-38.416097;-63.616672
+125;Paraná;1;Almacén de Materia Prima;Argentina;-38.416097;-63.616672
+126;Campinas;1;Almacén de Materia Prima;Brasil;-14.23;-51.92
+127;Dongguan;1;Almacén de Materia Prima;China;35.86;104.19
+128;Gonvvama Holding;1;Almacén de Materia Prima;China;35.86;104.19
+129;Changshu;1;Almacén de Materia Prima;China;35.86;104.19
+130;Shenyang;1;Almacén de Materia Prima;China;35.86;104.19
+131;Chongqing;1;Almacén de Materia Prima;China;35.86;104.19
+132;Loudi;1;Almacén de Materia Prima;China;35.86;104.19
+133;GCF;1;Almacén de Materia Prima;Rep.Checa;49.81;15.47
+134;Bridge Street;1;Almacén de Materia Prima;UK;55.37;-3.43
+135;Newton Aycliffe;1;Almacén de Materia Prima;UK;55.37;-3.43
+136;Popes Lane;1;Almacén de Materia Prima;UK;55.37;-3.43
+137;Darlaston;1;Almacén de Materia Prima;UK;55.37;-3.43
+138;Cannock;1;Almacén de Materia Prima;Holanda;52.13;5.29
+139;Barcelona;1;Almacén de Producto Terminado;España;40.46;-3.74
+140;Burgos;1;Almacén de Producto Terminado;España;40.46;-3.74
+141;Tarragona;1;Almacén de Producto Terminado;España;40.46;-3.74
+142;Valencia;1;Almacén de Producto Terminado;España;40.46;-3.74
+143;Portugal;1;Almacén de Producto Terminado;Portugal;39.39;-8.22
+144;Union Street;1;Almacén de Producto Terminado;UK;55.37;-3.43
+145;Laser Barcelona;1;Almacén de Producto Terminado;España;40.46;-3.74
+146;Laser Valencia;1;Almacén de Producto Terminado;España;40.46;-3.74
+147;Gonvauto Barcelona;1;Almacén de Producto Terminado;España;40.46;-3.74
+148;Navarra;1;Almacén de Producto Terminado;España;40.46;-3.74
+149;Galicia;1;Almacén de Producto Terminado;España;40.46;-3.74
+150;Hiasa;1;Almacén de Producto Terminado;España;40.46;-3.74
+151;Gonvauto Asturias;1;Almacén de Producto Terminado;España;40.46;-3.74
+152;Baja California;1;Almacén de Producto Terminado;EEUU;37.09;-95.71
+153;Çepas;1;Almacén de Producto Terminado;Turquía;38.96;35.24
+154;Colombia;1;Almacén de Producto Terminado;Colombia;4.57;-74.29
+155;Thüringen;1;Almacén de Producto Terminado;Alemania;511.656;104.515
+156;Polska;1;Almacén de Producto Terminado;Polonia;51.91;19.14
+157;Senica;1;Almacén de Producto Terminado;Eslovaquia;48.66;19.69
+158;Kaluga;1;Almacén de Producto Terminado;Russia;61.52;105.31
+159;Czech;1;Almacén de Producto Terminado;Rep.Checa;49.81;15.47
+160;Laser Brandenburg;1;Almacén de Producto Terminado;Rep.Checa;49.81;15.47
+161;Puebla;1;Almacén de Producto Terminado;México;23.63;-102.55
+162;South Carolina;1;Almacén de Producto Terminado;EEUU;37.09;-95.71
+163;Argentina;1;Almacén de Producto Terminado;Argentina;-38.416097;-63.616672
+164;Paraná;1;Almacén de Producto Terminado;Argentina;-38.416097;-63.616672
+165;Campinas;1;Almacén de Producto Terminado;Brasil;-14.23;-51.92
+166;Dongguan;1;Almacén de Producto Terminado;China;35.86;104.19
+167;Gonvvama Holding;1;Almacén de Producto Terminado;China;35.86;104.19
+168;Changshu;1;Almacén de Producto Terminado;China;35.86;104.19
+169;Shenyang;1;Almacén de Producto Terminado;China;35.86;104.19
+170;Chongqing;1;Almacén de Producto Terminado;China;35.86;104.19
+171;Loudi;1;Almacén de Producto Terminado;China;35.86;104.19
+172;GCF;1;Almacén de Producto Terminado;Rep.Checa;49.81;15.47
+173;Bridge Street;1;Almacén de Producto Terminado;UK;55.37;-3.43
+174;Newton Aycliffe;1;Almacén de Producto Terminado;UK;55.37;-3.43
+175;Popes Lane;1;Almacén de Producto Terminado;UK;55.37;-3.43
+176;Darlaston;1;Almacén de Producto Terminado;UK;55.37;-3.43
+177;Cannock;1;Almacén de Producto Terminado;Holanda;52.13;5.29
+178;Barcelona;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+179;Burgos;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+180;Tarragona;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+181;Valencia;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+182;Portugal;1;Almacén producto semielaborado o en producción;Portugal;39.39;-8.22
+183;Union Street;1;Almacén producto semielaborado o en producción;UK;55.37;-3.43
+184;Laser Barcelona;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+185;Laser Valencia;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+186;Gonvauto Barcelona;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+187;Navarra;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+188;Galicia;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+189;Hiasa;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+190;Gonvauto Asturias;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+191;Baja California;1;Almacén producto semielaborado o en producción;EEUU;37.09;-95.71
+192;Çepas;1;Almacén producto semielaborado o en producción;Turquía;38.96;35.24
+193;Colombia;1;Almacén producto semielaborado o en producción;Colombia;4.57;-74.29
+194;Thüringen;1;Almacén producto semielaborado o en producción;Alemania;511.656;104.515
+195;Polska;1;Almacén producto semielaborado o en producción;Polonia;51.91;19.14
+196;Senica;1;Almacén producto semielaborado o en producción;Eslovaquia;48.66;19.69
+197;Kaluga;1;Almacén producto semielaborado o en producción;Russia;61.52;105.31
+198;Czech;1;Almacén producto semielaborado o en producción;Rep.Checa;49.81;15.47
+199;Laser Brandenburg;1;Almacén producto semielaborado o en producción;Rep.Checa;49.81;15.47
+200;Puebla;1;Almacén producto semielaborado o en producción;México;23.63;-102.55
+201;South Carolina;1;Almacén producto semielaborado o en producción;EEUU;37.09;-95.71
+202;Argentina;1;Almacén producto semielaborado o en producción;Argentina;-38.416097;-63.616672
+203;Paraná;1;Almacén producto semielaborado o en producción;Argentina;-38.416097;-63.616672
+204;Campinas;1;Almacén producto semielaborado o en producción;Brasil;-14.23;-51.92
+205;Dongguan;1;Almacén producto semielaborado o en producción;China;35.86;104.19
+206;Gonvvama Holding;1;Almacén producto semielaborado o en producción;China;35.86;104.19
+207;Changshu;1;Almacén producto semielaborado o en producción;China;35.86;104.19
+208;Shenyang;1;Almacén producto semielaborado o en producción;China;35.86;104.19
+209;Chongqing;1;Almacén producto semielaborado o en producción;China;35.86;104.19
+210;Loudi;1;Almacén producto semielaborado o en producción;China;35.86;104.19
+211;GCF;1;Almacén producto semielaborado o en producción;Rep.Checa;49.81;15.47
+212;Bridge Street;1;Almacén producto semielaborado o en producción;UK;55.37;-3.43
+213;Newton Aycliffe;1;Almacén producto semielaborado o en producción;UK;55.37;-3.43
+214;Popes Lane;1;Almacén producto semielaborado o en producción;UK;55.37;-3.43
+215;Darlaston;1;Almacén producto semielaborado o en producción;UK;55.37;-3.43
+216;Cannock;1;Almacén producto semielaborado o en producción;Holanda;52.13;5.29
+217;Barcelona;1;Área de embalado;España;40.46;-3.74
+218;Burgos;1;Área de embalado;España;40.46;-3.74
+219;Tarragona;1;Área de embalado;España;40.46;-3.74
+220;Valencia;1;Área de embalado;España;40.46;-3.74
+221;Portugal;1;Área de embalado;Portugal;39.39;-8.22
+222;Union Street;1;Área de embalado;UK;55.37;-3.43
+223;Laser Barcelona;1;Área de embalado;España;40.46;-3.74
+224;Laser Valencia;1;Área de embalado;España;40.46;-3.74
+225;Gonvauto Barcelona;1;Área de embalado;España;40.46;-3.74
+226;Navarra;1;Área de embalado;España;40.46;-3.74
+227;Galicia;1;Área de embalado;España;40.46;-3.74
+228;Hiasa;1;Área de embalado;España;40.46;-3.74
+229;Gonvauto Asturias;1;Área de embalado;España;40.46;-3.74
+230;Baja California;1;Área de embalado;EEUU;37.09;-95.71
+231;Çepas;1;Área de embalado;Turquía;38.96;35.24
+232;Colombia;1;Área de embalado;Colombia;4.57;-74.29
+233;Thüringen;1;Área de embalado;Alemania;511.656;104.515
+234;Polska;1;Área de embalado;Polonia;51.91;19.14
+235;Senica;1;Área de embalado;Eslovaquia;48.66;19.69
+236;Kaluga;1;Área de embalado;Russia;61.52;105.31
+237;Czech;1;Área de embalado;Rep.Checa;49.81;15.47
+238;Laser Brandenburg;1;Área de embalado;Rep.Checa;49.81;15.47
+239;Puebla;1;Área de embalado;México;23.63;-102.55
+240;South Carolina;1;Área de embalado;EEUU;37.09;-95.71
+241;Argentina;1;Área de embalado;Argentina;-38.416097;-63.616672
+242;Paraná;1;Área de embalado;Argentina;-38.416097;-63.616672
+243;Campinas;1;Área de embalado;Brasil;-14.23;-51.92
+244;Dongguan;1;Área de embalado;China;35.86;104.19
+245;Gonvvama Holding;1;Área de embalado;China;35.86;104.19
+246;Changshu;1;Área de embalado;China;35.86;104.19
+247;Shenyang;1;Área de embalado;China;35.86;104.19
+248;Chongqing;1;Área de embalado;China;35.86;104.19
+249;Loudi;1;Área de embalado;China;35.86;104.19
+250;GCF;1;Área de embalado;Rep.Checa;49.81;15.47
+251;Bridge Street;1;Área de embalado;UK;55.37;-3.43
+252;Newton Aycliffe;1;Área de embalado;UK;55.37;-3.43
+253;Popes Lane;1;Área de embalado;UK;55.37;-3.43
+254;Darlaston;1;Área de embalado;UK;55.37;-3.43
+255;Cannock;1;Área de embalado;Holanda;52.13;5.29
+256;Barcelona;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+257;Burgos;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+258;Tarragona;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+259;Valencia;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+260;Portugal;1;Instalaciones exteriores y auxiliares;Portugal;39.39;-8.22
+261;Union Street;1;Instalaciones exteriores y auxiliares;UK;55.37;-3.43
+262;Laser Barcelona;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+263;Laser Valencia;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+264;Gonvauto Barcelona;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+265;Navarra;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+266;Galicia;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+267;Hiasa;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+268;Gonvauto Asturias;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+269;Baja California;1;Instalaciones exteriores y auxiliares;EEUU;37.09;-95.71
+270;Çepas;1;Instalaciones exteriores y auxiliares;Turquía;38.96;35.24
+271;Colombia;1;Instalaciones exteriores y auxiliares;Colombia;4.57;-74.29
+272;Thüringen;1;Instalaciones exteriores y auxiliares;Alemania;511.656;104.515
+273;Polska;1;Instalaciones exteriores y auxiliares;Polonia;51.91;19.14
+274;Senica;1;Instalaciones exteriores y auxiliares;Eslovaquia;48.66;19.69
+275;Kaluga;1;Instalaciones exteriores y auxiliares;Russia;61.52;105.31
+276;Czech;1;Instalaciones exteriores y auxiliares;Rep.Checa;49.81;15.47
+277;Laser Brandenburg;1;Instalaciones exteriores y auxiliares;Rep.Checa;49.81;15.47
+278;Puebla;1;Instalaciones exteriores y auxiliares;México;23.63;-102.55
+279;South Carolina;1;Instalaciones exteriores y auxiliares;EEUU;37.09;-95.71
+280;Argentina;1;Instalaciones exteriores y auxiliares;Argentina;-38.416097;-63.616672
+281;Paraná;1;Instalaciones exteriores y auxiliares;Argentina;-38.416097;-63.616672
+282;Campinas;1;Instalaciones exteriores y auxiliares;Brasil;-14.23;-51.92
+283;Dongguan;1;Instalaciones exteriores y auxiliares;China;35.86;104.19
+284;Gonvvama Holding;1;Instalaciones exteriores y auxiliares;China;35.86;104.19
+285;Changshu;1;Instalaciones exteriores y auxiliares;China;35.86;104.19
+286;Shenyang;1;Instalaciones exteriores y auxiliares;China;35.86;104.19
+287;Chongqing;1;Instalaciones exteriores y auxiliares;China;35.86;104.19
+288;Loudi;1;Instalaciones exteriores y auxiliares;China;35.86;104.19
+289;GCF;1;Instalaciones exteriores y auxiliares;Rep.Checa;49.81;15.47
+290;Bridge Street;1;Instalaciones exteriores y auxiliares;UK;55.37;-3.43
+291;Newton Aycliffe;1;Instalaciones exteriores y auxiliares;UK;55.37;-3.43
+292;Popes Lane;1;Instalaciones exteriores y auxiliares;UK;55.37;-3.43
+293;Darlaston;1;Instalaciones exteriores y auxiliares;UK;55.37;-3.43
+294;Cannock;1;Instalaciones exteriores y auxiliares;Holanda;52.13;5.29
+295;Barcelona;1;Mantenimiento;España;40.46;-3.74
+296;Burgos;1;Mantenimiento;España;40.46;-3.74
+297;Tarragona;1;Mantenimiento;España;40.46;-3.74
+298;Valencia;1;Mantenimiento;España;40.46;-3.74
+299;Portugal;1;Mantenimiento;Portugal;39.39;-8.22
+300;Union Street;1;Mantenimiento;UK;55.37;-3.43
+301;Laser Barcelona;1;Mantenimiento;España;40.46;-3.74
+302;Laser Valencia;1;Mantenimiento;España;40.46;-3.74
+303;Gonvauto Barcelona;1;Mantenimiento;España;40.46;-3.74
+304;Navarra;1;Mantenimiento;España;40.46;-3.74
+305;Galicia;1;Mantenimiento;España;40.46;-3.74
+306;Hiasa;1;Mantenimiento;España;40.46;-3.74
+307;Gonvauto Asturias;1;Mantenimiento;España;40.46;-3.74
+308;Baja California;1;Mantenimiento;EEUU;37.09;-95.71
+309;Çepas;1;Mantenimiento;Turquía;38.96;35.24
+310;Colombia;1;Mantenimiento;Colombia;4.57;-74.29
+311;Thüringen;1;Mantenimiento;Alemania;511.656;104.515
+312;Polska;1;Mantenimiento;Polonia;51.91;19.14
+313;Senica;1;Mantenimiento;Eslovaquia;48.66;19.69
+314;Kaluga;1;Mantenimiento;Russia;61.52;105.31
+315;Czech;1;Mantenimiento;Rep.Checa;49.81;15.47
+316;Laser Brandenburg;1;Mantenimiento;Rep.Checa;49.81;15.47
+317;Puebla;1;Mantenimiento;México;23.63;-102.55
+318;South Carolina;1;Mantenimiento;EEUU;37.09;-95.71
+319;Argentina;1;Mantenimiento;Argentina;-38.416097;-63.616672
+320;Paraná;1;Mantenimiento;Argentina;-38.416097;-63.616672
+321;Campinas;1;Mantenimiento;Brasil;-14.23;-51.92
+322;Dongguan;1;Mantenimiento;China;35.86;104.19
+323;Gonvvama Holding;1;Mantenimiento;China;35.86;104.19
+324;Changshu;1;Mantenimiento;China;35.86;104.19
+325;Shenyang;1;Mantenimiento;China;35.86;104.19
+326;Chongqing;1;Mantenimiento;China;35.86;104.19
+327;Loudi;1;Mantenimiento;China;35.86;104.19
+328;GCF;1;Mantenimiento;Rep.Checa;49.81;15.47
+329;Bridge Street;1;Mantenimiento;UK;55.37;-3.43
+330;Newton Aycliffe;1;Mantenimiento;UK;55.37;-3.43
+331;Popes Lane;1;Mantenimiento;UK;55.37;-3.43
+332;Darlaston;1;Mantenimiento;UK;55.37;-3.43
+333;Cannock;1;Mantenimiento;Holanda;52.13;5.29
+334;Barcelona;1;Maquinaria Auxiliar;España;40.46;-3.74
+335;Burgos;1;Maquinaria Auxiliar;España;40.46;-3.74
+336;Tarragona;1;Maquinaria Auxiliar;España;40.46;-3.74
+337;Valencia;1;Maquinaria Auxiliar;España;40.46;-3.74
+338;Portugal;1;Maquinaria Auxiliar;Portugal;39.39;-8.22
+339;Union Street;1;Maquinaria Auxiliar;UK;55.37;-3.43
+340;Laser Barcelona;1;Maquinaria Auxiliar;España;40.46;-3.74
+341;Laser Valencia;1;Maquinaria Auxiliar;España;40.46;-3.74
+342;Gonvauto Barcelona;1;Maquinaria Auxiliar;España;40.46;-3.74
+343;Navarra;1;Maquinaria Auxiliar;España;40.46;-3.74
+344;Galicia;1;Maquinaria Auxiliar;España;40.46;-3.74
+345;Hiasa;1;Maquinaria Auxiliar;España;40.46;-3.74
+346;Gonvauto Asturias;1;Maquinaria Auxiliar;España;40.46;-3.74
+347;Baja California;1;Maquinaria Auxiliar;EEUU;37.09;-95.71
+348;Çepas;1;Maquinaria Auxiliar;Turquía;38.96;35.24
+349;Colombia;1;Maquinaria Auxiliar;Colombia;4.57;-74.29
+350;Thüringen;1;Maquinaria Auxiliar;Alemania;511.656;104.515
+351;Polska;1;Maquinaria Auxiliar;Polonia;51.91;19.14
+352;Senica;1;Maquinaria Auxiliar;Eslovaquia;48.66;19.69
+353;Kaluga;1;Maquinaria Auxiliar;Russia;61.52;105.31
+354;Czech;1;Maquinaria Auxiliar;Rep.Checa;49.81;15.47
+355;Laser Brandenburg;1;Maquinaria Auxiliar;Rep.Checa;49.81;15.47
+356;Puebla;1;Maquinaria Auxiliar;México;23.63;-102.55
+357;South Carolina;1;Maquinaria Auxiliar;EEUU;37.09;-95.71
+358;Argentina;1;Maquinaria Auxiliar;Argentina;-38.416097;-63.616672
+359;Paraná;1;Maquinaria Auxiliar;Argentina;-38.416097;-63.616672
+360;Campinas;1;Maquinaria Auxiliar;Brasil;-14.23;-51.92
+361;Dongguan;1;Maquinaria Auxiliar;China;35.86;104.19
+362;Gonvvama Holding;1;Maquinaria Auxiliar;China;35.86;104.19
+363;Changshu;1;Maquinaria Auxiliar;China;35.86;104.19
+364;Shenyang;1;Maquinaria Auxiliar;China;35.86;104.19
+365;Chongqing;1;Maquinaria Auxiliar;China;35.86;104.19
+366;Loudi;1;Maquinaria Auxiliar;China;35.86;104.19
+367;GCF;1;Maquinaria Auxiliar;Rep.Checa;49.81;15.47
+368;Bridge Street;1;Maquinaria Auxiliar;UK;55.37;-3.43
+369;Newton Aycliffe;1;Maquinaria Auxiliar;UK;55.37;-3.43
+370;Popes Lane;1;Maquinaria Auxiliar;UK;55.37;-3.43
+371;Darlaston;1;Maquinaria Auxiliar;UK;55.37;-3.43
+372;Cannock;1;Maquinaria Auxiliar;Holanda;52.13;5.29
+373;Barcelona;1;Oficinas administrativas;España;40.46;-3.74
+374;Burgos;1;Oficinas administrativas;España;40.46;-3.74
+375;Tarragona;1;Oficinas administrativas;España;40.46;-3.74
+376;Valencia;1;Oficinas administrativas;España;40.46;-3.74
+377;Portugal;1;Oficinas administrativas;Portugal;39.39;-8.22
+378;Union Street;1;Oficinas administrativas;UK;55.37;-3.43
+379;Laser Barcelona;1;Oficinas administrativas;España;40.46;-3.74
+380;Laser Valencia;1;Oficinas administrativas;España;40.46;-3.74
+381;Gonvauto Barcelona;1;Oficinas administrativas;España;40.46;-3.74
+382;Navarra;1;Oficinas administrativas;España;40.46;-3.74
+383;Galicia;1;Oficinas administrativas;España;40.46;-3.74
+384;Hiasa;1;Oficinas administrativas;España;40.46;-3.74
+385;Gonvauto Asturias;1;Oficinas administrativas;España;40.46;-3.74
+386;Baja California;1;Oficinas administrativas;EEUU;37.09;-95.71
+387;Çepas;1;Oficinas administrativas;Turquía;38.96;35.24
+388;Colombia;1;Oficinas administrativas;Colombia;4.57;-74.29
+389;Thüringen;1;Oficinas administrativas;Alemania;511.656;104.515
+390;Polska;1;Oficinas administrativas;Polonia;51.91;19.14
+391;Senica;1;Oficinas administrativas;Eslovaquia;48.66;19.69
+392;Kaluga;1;Oficinas administrativas;Russia;61.52;105.31
+393;Czech;1;Oficinas administrativas;Rep.Checa;49.81;15.47
+394;Laser Brandenburg;1;Oficinas administrativas;Rep.Checa;49.81;15.47
+395;Puebla;1;Oficinas administrativas;México;23.63;-102.55
+396;South Carolina;1;Oficinas administrativas;EEUU;37.09;-95.71
+397;Argentina;1;Oficinas administrativas;Argentina;-38.416097;-63.616672
+398;Paraná;1;Oficinas administrativas;Argentina;-38.416097;-63.616672
+399;Campinas;1;Oficinas administrativas;Brasil;-14.23;-51.92
+400;Dongguan;1;Oficinas administrativas;China;35.86;104.19
+401;Gonvvama Holding;1;Oficinas administrativas;China;35.86;104.19
+402;Changshu;1;Oficinas administrativas;China;35.86;104.19
+403;Shenyang;1;Oficinas administrativas;China;35.86;104.19
+404;Chongqing;1;Oficinas administrativas;China;35.86;104.19
+405;Loudi;1;Oficinas administrativas;China;35.86;104.19
+406;GCF;1;Oficinas administrativas;Rep.Checa;49.81;15.47
+407;Bridge Street;1;Oficinas administrativas;UK;55.37;-3.43
+408;Newton Aycliffe;1;Oficinas administrativas;UK;55.37;-3.43
+409;Popes Lane;1;Oficinas administrativas;UK;55.37;-3.43
+410;Darlaston;1;Oficinas administrativas;UK;55.37;-3.43
+411;Cannock;1;Oficinas administrativas;Holanda;52.13;5.29
+412;Barcelona;1;Puente Grúa;España;40.46;-3.74
+413;Burgos;1;Puente Grúa;España;40.46;-3.74
+414;Tarragona;1;Puente Grúa;España;40.46;-3.74
+415;Valencia;1;Puente Grúa;España;40.46;-3.74
+416;Portugal;1;Puente Grúa;Portugal;39.39;-8.22
+417;Union Street;1;Puente Grúa;UK;55.37;-3.43
+418;Laser Barcelona;1;Puente Grúa;España;40.46;-3.74
+419;Laser Valencia;1;Puente Grúa;España;40.46;-3.74
+420;Gonvauto Barcelona;1;Puente Grúa;España;40.46;-3.74
+421;Navarra;1;Puente Grúa;España;40.46;-3.74
+422;Galicia;1;Puente Grúa;España;40.46;-3.74
+423;Hiasa;1;Puente Grúa;España;40.46;-3.74
+424;Gonvauto Asturias;1;Puente Grúa;España;40.46;-3.74
+425;Baja California;1;Puente Grúa;EEUU;37.09;-95.71
+426;Çepas;1;Puente Grúa;Turquía;38.96;35.24
+427;Colombia;1;Puente Grúa;Colombia;4.57;-74.29
+428;Thüringen;1;Puente Grúa;Alemania;511.656;104.515
+429;Polska;1;Puente Grúa;Polonia;51.91;19.14
+430;Senica;1;Puente Grúa;Eslovaquia;48.66;19.69
+431;Kaluga;1;Puente Grúa;Russia;61.52;105.31
+432;Czech;1;Puente Grúa;Rep.Checa;49.81;15.47
+433;Laser Brandenburg;1;Puente Grúa;Rep.Checa;49.81;15.47
+434;Puebla;1;Puente Grúa;México;23.63;-102.55
+435;South Carolina;1;Puente Grúa;EEUU;37.09;-95.71
+436;Argentina;1;Puente Grúa;Argentina;-38.416097;-63.616672
+437;Paraná;1;Puente Grúa;Argentina;-38.416097;-63.616672
+438;Campinas;1;Puente Grúa;Brasil;-14.23;-51.92
+439;Dongguan;1;Puente Grúa;China;35.86;104.19
+440;Gonvvama Holding;1;Puente Grúa;China;35.86;104.19
+441;Changshu;1;Puente Grúa;China;35.86;104.19
+442;Shenyang;1;Puente Grúa;China;35.86;104.19
+443;Chongqing;1;Puente Grúa;China;35.86;104.19
+444;Loudi;1;Puente Grúa;China;35.86;104.19
+445;GCF;1;Puente Grúa;Rep.Checa;49.81;15.47
+446;Bridge Street;1;Puente Grúa;UK;55.37;-3.43
+447;Newton Aycliffe;1;Puente Grúa;UK;55.37;-3.43
+448;Popes Lane;1;Puente Grúa;UK;55.37;-3.43
+449;Darlaston;1;Puente Grúa;UK;55.37;-3.43
+450;Cannock;1;Puente Grúa;Holanda;52.13;5.29
+451;Paraná;1;Corte Longitudinal;Argentina;-38.416097;-63.616672
+452;Barcelona;1;Carpinteria;España;40.46;-3.74
+453;Burgos;1;Carpinteria;España;40.46;-3.74
+454;Tarragona;1;Carpinteria;España;40.46;-3.74
+455;Valencia;1;Carpinteria;España;40.46;-3.74
+456;Portugal;1;Carpinteria;Portugal;39.39;-8.22
+457;Union Street;1;Carpinteria;UK;55.37;-3.43
+458;Laser Barcelona;1;Carpinteria;España;40.46;-3.74
+459;Laser Valencia;1;Carpinteria;España;40.46;-3.74
+460;Gonvauto Barcelona;1;Carpinteria;España;40.46;-3.74
+461;Navarra;1;Carpinteria;España;40.46;-3.74
+462;Galicia;1;Carpinteria;España;40.46;-3.74
+463;Hiasa;1;Carpinteria;España;40.46;-3.74
+464;Gonvauto Asturias;1;Carpinteria;España;40.46;-3.74
+465;Baja California;1;Carpinteria;EEUU;37.09;-95.71
+466;Çepas;1;Carpinteria;Turquía;38.96;35.24
+467;Colombia;1;Carpinteria;Colombia;4.57;-74.29
+468;Thüringen;1;Carpinteria;Alemania;511.656;104.515
+469;Polska;1;Carpinteria;Polonia;51.91;19.14
+470;Senica;1;Carpinteria;Eslovaquia;48.66;19.69
+471;Kaluga;1;Carpinteria;Russia;61.52;105.31
+472;Czech;1;Carpinteria;Rep.Checa;49.81;15.47
+473;Laser Brandenburg;1;Carpinteria;Rep.Checa;49.81;15.47
+474;Puebla;1;Carpinteria;México;23.63;-102.55
+475;South Carolina;1;Carpinteria;EEUU;37.09;-95.71
+476;Argentina;1;Carpinteria;Argentina;-38.416097;-63.616672
+477;Paraná;1;Carpinteria;Argentina;-38.416097;-63.616672
+478;Campinas;1;Carpinteria;Brasil;-14.23;-51.92
+479;Dongguan;1;Carpinteria;China;35.86;104.19
+481;Changshu;1;Carpinteria;China;35.86;104.19
+482;Shenyang;1;Carpinteria;China;35.86;104.19
+483;Chongqing;1;Carpinteria;China;35.86;104.19
+484;Loudi;1;Carpinteria;China;35.86;104.19
+486;Bridge Street;1;Carpinteria;UK;55.37;-3.43
+487;Newton Aycliffe;1;Carpinteria;UK;55.37;-3.43
+488;Popes Lane;1;Carpinteria;UK;55.37;-3.43
+489;Darlaston;1;Carpinteria;UK;55.37;-3.43
+490;Cannock;1;Carpinteria;Holanda;52.13;5.29
+491;Barcelona;1;Almacen de recambios;España;40.46;-3.74
+492;Burgos;1;Almacen de recambios;España;40.46;-3.74
+493;Tarragona;1;Almacen de recambios;España;40.46;-3.74
+494;Valencia;1;Almacen de recambios;España;40.46;-3.74
+495;Portugal;1;Almacen de recambios;Portugal;39.39;-8.22
+496;Union Street;1;Almacen de recambios;UK;55.37;-3.43
+497;Laser Barcelona;1;Almacen de recambios;España;40.46;-3.74
+498;Laser Valencia;1;Almacen de recambios;España;40.46;-3.74
+499;Gonvauto Barcelona;1;Almacen de recambios;España;40.46;-3.74
+500;Navarra;1;Almacen de recambios;España;40.46;-3.74
+501;Galicia;1;Almacen de recambios;España;40.46;-3.74
+502;Hiasa;1;Almacen de recambios;España;40.46;-3.74
+503;Gonvauto Asturias;1;Almacen de recambios;España;40.46;-3.74
+504;Baja California;1;Almacen de recambios;EEUU;37.09;-95.71
+505;Çepas;1;Almacen de recambios;Turquía;38.96;35.24
+506;Colombia;1;Almacen de recambios;Colombia;4.57;-74.29
+507;Thüringen;1;Almacen de recambios;Alemania;511.656;104.515
+508;Polska;1;Almacen de recambios;Polonia;51.91;19.14
+509;Senica;1;Almacen de recambios;Eslovaquia;48.66;19.69
+510;Kaluga;1;Almacen de recambios;Russia;61.52;105.31
+511;Czech;1;Almacen de recambios;Rep.Checa;49.81;15.47
+512;Laser Brandenburg;1;Almacen de recambios;Rep.Checa;49.81;15.47
+513;Puebla;1;Almacen de recambios;México;23.63;-102.55
+514;South Carolina;1;Almacen de recambios;EEUU;37.09;-95.71
+515;Argentina;1;Almacen de recambios;Argentina;-38.416097;-63.616672
+516;Paraná;1;Almacen de recambios;Argentina;-38.416097;-63.616672
+517;Campinas;1;Almacen de recambios;Brasil;-14.23;-51.92
+518;Dongguan;1;Almacen de recambios;China;35.86;104.19
+519;Gonvvama Holding;1;Almacen de recambios;China;35.86;104.19
+520;Changshu;1;Almacen de recambios;China;35.86;104.19
+521;Shenyang;1;Almacen de recambios;China;35.86;104.19
+522;Chongqing;1;Almacen de recambios;China;35.86;104.19
+523;Loudi;1;Almacen de recambios;China;35.86;104.19
+524;GCF;1;Almacen de recambios;Rep.Checa;49.81;15.47
+525;Bridge Street;1;Almacen de recambios;UK;55.37;-3.43
+526;Newton Aycliffe;1;Almacen de recambios;UK;55.37;-3.43
+527;Popes Lane;1;Almacen de recambios;UK;55.37;-3.43
+528;Darlaston;1;Almacen de recambios;UK;55.37;-3.43
+529;Cannock;1;Almacen de recambios;Holanda;52.13;5.29
+530;Barcelona;1;Almacen productos quimicos;España;40.46;-3.74
+531;Burgos;1;Almacen productos quimicos;España;40.46;-3.74
+532;Tarragona;1;Almacen productos quimicos;España;40.46;-3.74
+533;Valencia;1;Almacen productos quimicos;España;40.46;-3.74
+534;Portugal;1;Almacen productos quimicos;Portugal;39.39;-8.22
+535;Union Street;1;Almacen productos quimicos;UK;55.37;-3.43
+536;Laser Barcelona;1;Almacen productos quimicos;España;40.46;-3.74
+537;Laser Valencia;1;Almacen productos quimicos;España;40.46;-3.74
+538;Gonvauto Barcelona;1;Almacen productos quimicos;España;40.46;-3.74
+539;Navarra;1;Almacen productos quimicos;España;40.46;-3.74
+540;Galicia;1;Almacen productos quimicos;España;40.46;-3.74
+541;Hiasa;1;Almacen productos quimicos;España;40.46;-3.74
+542;Gonvauto Asturias;1;Almacen productos quimicos;España;40.46;-3.74
+543;Baja California;1;Almacen productos quimicos;EEUU;37.09;-95.71
+544;Çepas;1;Almacen productos quimicos;Turquía;38.96;35.24
+545;Colombia;1;Almacen productos quimicos;Colombia;4.57;-74.29
+546;Thüringen;1;Almacen productos quimicos;Alemania;511.656;104.515
+547;Polska;1;Almacen productos quimicos;Polonia;51.91;19.14
+548;Senica;1;Almacen productos quimicos;Eslovaquia;48.66;19.69
+549;Kaluga;1;Almacen productos quimicos;Russia;61.52;105.31
+550;Czech;1;Almacen productos quimicos;Rep.Checa;49.81;15.47
+551;Laser Brandenburg;1;Almacen productos quimicos;Rep.Checa;49.81;15.47
+552;Puebla;1;Almacen productos quimicos;México;23.63;-102.55
+553;South Carolina;1;Almacen productos quimicos;EEUU;37.09;-95.71
+554;Argentina;1;Almacen productos quimicos;Argentina;-38.416097;-63.616672
+555;Paraná;1;Almacen productos quimicos;Argentina;-38.416097;-63.616672
+556;Campinas;1;Almacen productos quimicos;Brasil;-14.23;-51.92
+557;Dongguan;1;Almacen productos quimicos;China;35.86;104.19
+558;Bridge Street;1;Almacen productos quimicos;UK;55.37;-3.43
+559;Newton Aycliffe;1;Almacen productos quimicos;UK;55.37;-3.43
+560;Popes Lane;1;Almacen productos quimicos;UK;55.37;-3.43
+561;Darlaston;1;Almacen productos quimicos;UK;55.37;-3.43
+562;Cannock;1;Almacen productos quimicos;Holanda;52.13;5.29
+563;Barcelona;1;Residuos productos quimicos;España;40.46;-3.74
+564;Burgos;1;Residuos productos quimicos;España;40.46;-3.74
+565;Tarragona;1;Residuos productos quimicos;España;40.46;-3.74
+566;Valencia;1;Residuos productos quimicos;España;40.46;-3.74
+567;Portugal;1;Residuos productos quimicos;Portugal;39.39;-8.22
+568;Union Street;1;Residuos productos quimicos;UK;55.37;-3.43
+569;Laser Barcelona;1;Residuos productos quimicos;España;40.46;-3.74
+570;Laser Valencia;1;Residuos productos quimicos;España;40.46;-3.74
+571;Gonvauto Barcelona;1;Residuos productos quimicos;España;40.46;-3.74
+572;Navarra;1;Residuos productos quimicos;España;40.46;-3.74
+573;Galicia;1;Residuos productos quimicos;España;40.46;-3.74
+574;Hiasa;1;Residuos productos quimicos;España;40.46;-3.74
+575;Gonvauto Asturias;1;Residuos productos quimicos;España;40.46;-3.74
+576;Baja California;1;Residuos productos quimicos;EEUU;37.09;-95.71
+577;Çepas;1;Residuos productos quimicos;Turquía;38.96;35.24
+578;Colombia;1;Residuos productos quimicos;Colombia;4.57;-74.29
+579;Thüringen;1;Residuos productos quimicos;Alemania;511.656;104.515
+580;Polska;1;Residuos productos quimicos;Polonia;51.91;19.14
+581;Senica;1;Residuos productos quimicos;Eslovaquia;48.66;19.69
+582;Kaluga;1;Residuos productos quimicos;Russia;61.52;105.31
+583;Czech;1;Residuos productos quimicos;Rep.Checa;49.81;15.47
+584;Laser Brandenburg;1;Residuos productos quimicos;Rep.Checa;49.81;15.47
+585;Puebla;1;Residuos productos quimicos;México;23.63;-102.55
+586;South Carolina;1;Residuos productos quimicos;EEUU;37.09;-95.71
+587;Argentina;1;Residuos productos quimicos;Argentina;-38.416097;-63.616672
+588;Paraná;1;Residuos productos quimicos;Argentina;-38.416097;-63.616672
+589;Campinas;1;Residuos productos quimicos;Brasil;-14.23;-51.92
+590;Dongguan;1;Residuos productos quimicos;China;35.86;104.19
+591;Bridge Street;1;Residuos productos quimicos;UK;55.37;-3.43
+592;Newton Aycliffe;1;Residuos productos quimicos;UK;55.37;-3.43
+593;Popes Lane;1;Residuos productos quimicos;UK;55.37;-3.43
+594;Darlaston;1;Residuos productos quimicos;UK;55.37;-3.43
+595;Cannock;1;Residuos productos quimicos;Holanda;52.13;5.29
+596;Barcelona;1;Carretilla;España;40.46;-3.74
+597;Burgos;1;Carretilla;España;40.46;-3.74
+598;Tarragona;1;Carretilla;España;40.46;-3.74
+599;Valencia;1;Carretilla;España;40.46;-3.74
+600;Portugal;1;Carretilla;Portugal;39.39;-8.22
+601;Union Street;1;Carretilla;UK;55.37;-3.43
+602;Laser Barcelona;1;Carretilla;España;40.46;-3.74
+603;Laser Valencia;1;Carretilla;España;40.46;-3.74
+604;Gonvauto Barcelona;1;Carretilla;España;40.46;-3.74
+605;Navarra;1;Carretilla;España;40.46;-3.74
+606;Galicia;1;Carretilla;España;40.46;-3.74
+607;Hiasa;1;Carretilla;España;40.46;-3.74
+608;Gonvauto Asturias;1;Carretilla;España;40.46;-3.74
+609;Baja California;1;Carretilla;EEUU;37.09;-95.71
+610;Çepas;1;Carretilla;Turquía;38.96;35.24
+611;Colombia;1;Carretilla;Colombia;4.57;-74.29
+612;Thüringen;1;Carretilla;Alemania;511.656;104.515
+613;Polska;1;Carretilla;Polonia;51.91;19.14
+614;Senica;1;Carretilla;Eslovaquia;48.66;19.69
+615;Kaluga;1;Carretilla;Russia;61.52;105.31
+616;Czech;1;Carretilla;Rep.Checa;49.81;15.47
+617;Laser Brandenburg;1;Carretilla;Rep.Checa;49.81;15.47
+618;Puebla;1;Carretilla;México;23.63;-102.55
+619;South Carolina;1;Carretilla;EEUU;37.09;-95.71
+620;Argentina;1;Carretilla;Argentina;-38.416097;-63.616672
+621;Paraná;1;Carretilla;Argentina;-38.416097;-63.616672
+622;Campinas;1;Carretilla;Brasil;-14.23;-51.92
+623;Dongguan;1;Carretilla;China;35.86;104.19
+624;Bridge Street;1;Carretilla;UK;55.37;-3.43
+625;Newton Aycliffe;1;Carretilla;UK;55.37;-3.43
+626;Popes Lane;1;Carretilla;UK;55.37;-3.43
+627;Darlaston;1;Carretilla;UK;55.37;-3.43
+628;Cannock;1;Carretilla;Holanda;52.13;5.29
+629;Barcelona;1;Coil to Coil;España;40.46;-3.74
+630;Burgos;1;Coil to Coil;España;40.46;-3.74
+631;Tarragona;1;Coil to Coil;España;40.46;-3.74
+632;Valencia;1;Coil to Coil;España;40.46;-3.74
+633;Portugal;1;Coil to Coil;Portugal;39.39;-8.22
+634;Union Street;1;Coil to Coil;UK;55.37;-3.43
+637;Gonvauto Barcelona;1;Coil to Coil;España;40.46;-3.74
+638;Navarra;1;Coil to Coil;España;40.46;-3.74
+639;Galicia;1;Coil to Coil;España;40.46;-3.74
+640;Hiasa;1;Coil to Coil;España;40.46;-3.74
+641;Gonvauto Asturias;1;Coil to Coil;España;40.46;-3.74
+642;Baja California;1;Coil to Coil;EEUU;37.09;-95.71
+643;Çepas;1;Coil to Coil;Turquía;38.96;35.24
+644;Colombia;1;Coil to Coil;Colombia;4.57;-74.29
+645;Thüringen;1;Coil to Coil;Alemania;511.656;104.515
+646;Polska;1;Coil to Coil;Polonia;51.91;19.14
+647;Senica;1;Coil to Coil;Eslovaquia;48.66;19.69
+648;Kaluga;1;Coil to Coil;Russia;61.52;105.31
+649;Czech;1;Coil to Coil;Rep.Checa;49.81;15.47
+650;Laser Brandenburg;1;Coil to Coil;Rep.Checa;49.81;15.47
+651;Puebla;1;Coil to Coil;México;23.63;-102.55
+652;South Carolina;1;Coil to Coil;EEUU;37.09;-95.71
+653;Argentina;1;Coil to Coil;Argentina;-38.416097;-63.616672
+654;Paraná;1;Coil to Coil;Argentina;-38.416097;-63.616672
+655;Campinas;1;Coil to Coil;Brasil;-14.23;-51.92
+656;Dongguan;1;Coil to Coil;China;35.86;104.19
+657;Bridge Street;1;Coil to Coil;UK;55.37;-3.43
+658;Newton Aycliffe;1;Coil to Coil;UK;55.37;-3.43
+659;Popes Lane;1;Coil to Coil;UK;55.37;-3.43
+660;Darlaston;1;Coil to Coil;UK;55.37;-3.43
+661;Cannock;1;Coil to Coil;Holanda;52.13;5.29
+662;Hiasa;1;Soldadura Manual;España;40.46;-3.74
+663;Çepas;1;Soldadura Manual;Turquía;38.96;35.24
+664;Hiasa;1;General / Auxiliar;España;40.46;-3.74
+665;Colombia;1;Galvanizado;Colombia;4.57;-74.29
+666;Çepas;1;Galvanizado ;Turquía;38.96;35.24
+667;Flinsa;1;Almacén de Materia Prima;España;40.46;-3.74
+668;Flinsa;1;Almacén de Producto Terminado;España;40.46;-3.74
+669;Flinsa;1;Almacen de recambios;España;40.46;-3.74
+670;Flinsa;1;Almacén producto semielaborado o en producción;España;40.46;-3.74
+671;Flinsa;1;Almacen productos quimicos;España;40.46;-3.74
+672;Flinsa;1;Área de embalado;España;40.46;-3.74
+673;Flinsa;1;Carretilla;España;40.46;-3.74
+674;Flinsa;1;Corte Longitudinal;España;40.46;-3.74
+675;Flinsa;1;Corte Plasma;España;40.46;-3.74
+676;Flinsa;1;Instalaciones exteriores y auxiliares;España;40.46;-3.74
+677;Flinsa;1;Laminado;España;40.46;-3.74
+678;Flinsa;1;Mantenimiento;España;40.46;-3.74
+679;Flinsa;1;Maquinaria Auxiliar;España;40.46;-3.74
+680;Flinsa;1;Oficinas administrativas;España;40.46;-3.74
+681;Flinsa;1;Puente Grúa;España;40.46;-3.74
+682;Flinsa;1;Residuos productos quimicos;España;40.46;-3.74
+683;Flinsa;1;Sierra;España;40.46;-3.74
+684;Flinsa;1;Soldadura Manual;España;40.46;-3.74
+685;Flinsa;1;Tubos;España;40.46;-3.74
+686;Valencia;1;Depuradora;España;40.46;-3.74
+700;Thüringen;1;General;Alemania;511.656;10,4515
+716;GCF;1;General;Rep.Checa;49.81;15.47
+717;Popes Lane;1;Corte Longitudinal;UK;55.37;-3.43
+718;Popes Lane;1;Blanking;UK;55.37;-3.43
+719;Union Street;1;Slitting;UK;55.37;-3.43
+720;Union Street;1;Press Blanking;UK;55.37;-3.43
+721;Union Street;1;Shears;UK;55.37;-3.43
+722;Union Street;1;Pallet Department;UK;55.37;-3.43
+723;Union Street;1;Multi Strand;UK;55.37;-3.43
+724;Bridge Street;1;Slitting;UK;55.37;-3.43
+725;Newton Aycliffe;1;Slitting ;UK;55.37;-3.43
+726;Changshu;1;D-Ring Line;China;35.86;104.19
+727;Changshu;1;Ablation Line;China;35.86;104.19
+728;Shenyang;1;Ablation Line;China;35.86;104.19
+729;Chongqing;1;Ablation Line;China;35.86;104.19
+730;Loudi;1;Ablation Line;China;35.86;104.19
+731;Nitra;1;Blanking;Eslovaquia;48.66;19.69
+732;Nitra;1;Área de embalado;Eslovaquia;48.66;19.69
+733;Nitra;0;;Eslovaquia;48.66;19.69
+734;Nitra;0;;Eslovaquia;48.66;19.69
+735;Nitra;0;;Eslovaquia;48.66;19.69
+736;Nitra;0;;Eslovaquia;48.66;19.69
+737;Nitra;0;;Eslovaquia;48.66;19.69
+738;Nitra;0;;Eslovaquia;48.66;19.69
+739;Nitra;0;;Eslovaquia;48.66;19.69
+740;Nitra;0;;Eslovaquia;48.66;19.69
+741;Nitra;0;;Eslovaquia;48.66;19.69
+742;Nitra;0;;Eslovaquia;48.66;19.69
+743;Nitra;0;;Eslovaquia;48.66;19.69
+744;Nitra;0;;Eslovaquia;48.66;19.69
+745;Nitra;0;;Eslovaquia;48.66;19.69
+746;Nitra;0;;Eslovaquia;48.66;19.69
+747;Nitra;0;;Eslovaquia;48.66;19.69
+748;Nitra;0;;Eslovaquia;48.66;19.69
+749;Puebla;1;Matricería ;México;23.63;-102.55
+750;Puebla;1;Corte Transversal;México;23.63;-102.55
