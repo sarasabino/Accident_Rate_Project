@@ -8,11 +8,25 @@ Accidents directly impact two crucial factors for business: money and reputation
 
 This project aims to help reduce those numbers by predicting if an employee is going to suffer an accident/injury. This prediction will help companies to avoid those dangerous situations by being more aware of them. 
 
-
+As well as predicting the accidents/no accident of the employees on our company, an analysis has been made to identify the company structure, workers profile, location etc...
 
 ## Author ✒️
 
 Sara Sabino Martínez
+
+## Stating point & random data generation
+
+## Analysis conclusions
+
+## Modeling
+### Feature understanding and selection
+
+### Seeking best Machine Learning model
+
+### Applying Deep Learning: Neural Networks
+
+
+## Conclusions
 
 ## Front-end 🚀
 https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/05_streamlit_app.py
