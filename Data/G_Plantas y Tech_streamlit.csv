@@ -1,60 +1,60 @@
 ﻿ID;Fabrica;Activo;Tecnología;Pais;lat;lon
-1;Argentina;1;Blanking;Argentina;-38.416.097;-63.616.672
-2;Argentina;1;Corte Longitudinal;Argentina;-38.416.098;-63.616.673
-3;Argentina;1;Corte Transversal;Argentina;-38.416.099;-63.616.674
-69;Paraná;1;Cizalla;Argentina;-38.416.100;-63.616.675
-70;Paraná;1;Corte Transversal;Argentina;-38.416.101;-63.616.676
-71;Paraná;1;Prensa;Argentina;-38.416.102;-63.616.677
-124;Argentina;1;Almacén de Materia Prima;Argentina;-38.416.103;-63.616.678
-125;Paraná;1;Almacén de Materia Prima;Argentina;-38.416.104;-63.616.679
-163;Argentina;1;Almacén de Producto Terminado;Argentina;-38.416.105;-63.616.680
-164;Paraná;1;Almacén de Producto Terminado;Argentina;-38.416.106;-63.616.681
-202;Argentina;1;Almacén producto semielaborado o en producción;Argentina;-38.416.107;-63.616.682
-203;Paraná;1;Almacén producto semielaborado o en producción;Argentina;-38.416.108;-63.616.683
-241;Argentina;1;Área de embalado;Argentina;-38.416.109;-63.616.684
-242;Paraná;1;Área de embalado;Argentina;-38.416.110;-63.616.685
-280;Argentina;1;Instalaciones exteriores y auxiliares;Argentina;-38.416.111;-63.616.686
-281;Paraná;1;Instalaciones exteriores y auxiliares;Argentina;-38.416.112;-63.616.687
-319;Argentina;1;Mantenimiento;Argentina;-38.416.113;-63.616.688
-320;Paraná;1;Mantenimiento;Argentina;-38.416.114;-63.616.689
-358;Argentina;1;Maquinaria Auxiliar;Argentina;-38.416.115;-63.616.690
-359;Paraná;1;Maquinaria Auxiliar;Argentina;-38.416.116;-63.616.691
-397;Argentina;1;Oficinas administrativas;Argentina;-38.416.117;-63.616.692
-398;Paraná;1;Oficinas administrativas;Argentina;-38.416.118;-63.616.693
-436;Argentina;1;Puente Grúa;Argentina;-38.416.119;-63.616.694
-437;Paraná;1;Puente Grúa;Argentina;-38.416.120;-63.616.695
-451;Paraná;1;Corte Longitudinal;Argentina;-38.416.121;-63.616.696
-476;Argentina;1;Carpinteria;Argentina;-38.416.122;-63.616.697
-477;Paraná;1;Carpinteria;Argentina;-38.416.123;-63.616.698
-515;Argentina;1;Almacen de recambios;Argentina;-38.416.124;-63.616.699
-516;Paraná;1;Almacen de recambios;Argentina;-38.416.125;-63.616.700
-554;Argentina;1;Almacen productos quimicos;Argentina;-38.416.126;-63.616.701
-555;Paraná;1;Almacen productos quimicos;Argentina;-38.416.127;-63.616.702
-587;Argentina;1;Residuos productos quimicos;Argentina;-38.416.128;-63.616.703
-588;Paraná;1;Residuos productos quimicos;Argentina;-38.416.129;-63.616.704
-620;Argentina;1;Carretilla;Argentina;-38.416.130;-63.616.705
-621;Paraná;1;Carretilla;Argentina;-38.416.131;-63.616.706
-653;Argentina;1;Coil to Coil;Argentina;-38.416.132;-63.616.707
-654;Paraná;1;Coil to Coil;Argentina;-38.416.133;-63.616.708
-86;Thüringen;1;Blanking;Alemania;51.1656;10.4515
-87;Thüringen;1;Corte Láser 3D;Alemania;51.1656;10.4515
-88;Thüringen;1;Corte Longitudinal;Alemania;51.1656;10.4515
-116;Thüringen;1;Almacén de Materia Prima;Alemania;51.1656;10.4515
-155;Thüringen;1;Almacén de Producto Terminado;Alemania;51.1656;10.4515
-194;Thüringen;1;Almacén producto semielaborado o en producción;Alemania;51.1656;10.4515
-233;Thüringen;1;Área de embalado;Alemania;51.1656;10.4515
-272;Thüringen;1;Instalaciones exteriores y auxiliares;Alemania;51.1656;10.4515
-311;Thüringen;1;Mantenimiento;Alemania;51.1656;10.4515
-350;Thüringen;1;Maquinaria Auxiliar;Alemania;51.1656;10.4515
-389;Thüringen;1;Oficinas administrativas;Alemania;51.1656;10.4515
-428;Thüringen;1;Puente Grúa;Alemania;51.1656;10.4515
-468;Thüringen;1;Carpinteria;Alemania;51.1656;10.4515
-507;Thüringen;1;Almacen de recambios;Alemania;51.1656;10.4515
-546;Thüringen;1;Almacen productos quimicos;Alemania;51.1656;10.4515
-579;Thüringen;1;Residuos productos quimicos;Alemania;51.1656;10.4515
-612;Thüringen;1;Carretilla;Alemania;51.1656;10.4515
-645;Thüringen;1;Coil to Coil;Alemania;51.1656;10.4515
-700;Thüringen;1;General;Alemania;51.1656;10.4515
+1;Argentina;1;Blanking;Argentina;-38.41;-63.61
+2;Argentina;1;Corte Longitudinal;Argentina;-38.41;-63.61
+3;Argentina;1;Corte Transversal;Argentina;-38.41;-63.61
+69;Paraná;1;Cizalla;Argentina;-38.41;-63.61
+70;Paraná;1;Corte Transversal;Argentina;-38.41;-63.61
+71;Paraná;1;Prensa;Argentina;-38.41;-63.61
+124;Argentina;1;Almacén de Materia Prima;Argentina;-38.41;-63.61
+125;Paraná;1;Almacén de Materia Prima;Argentina;-38.41;-63.61
+163;Argentina;1;Almacén de Producto Terminado;Argentina;-38.41;-63.61
+164;Paraná;1;Almacén de Producto Terminado;Argentina;-38.41;-63.61
+202;Argentina;1;Almacén producto semielaborado o en producción;Argentina;-38.41;-63.61
+203;Paraná;1;Almacén producto semielaborado o en producción;Argentina;-38.41;-63.61
+241;Argentina;1;Área de embalado;Argentina;-38.41;-63.61
+242;Paraná;1;Área de embalado;Argentina;-38.41;-63.61
+280;Argentina;1;Instalaciones exteriores y auxiliares;Argentina;-38.41;-63.61
+281;Paraná;1;Instalaciones exteriores y auxiliares;Argentina;-38.41;-63.61
+319;Argentina;1;Mantenimiento;Argentina;-38.41;-63.61
+320;Paraná;1;Mantenimiento;Argentina;-38.41;-63.61
+358;Argentina;1;Maquinaria Auxiliar;Argentina;-38.41;-63.61
+359;Paraná;1;Maquinaria Auxiliar;Argentina;-38.41;-63.61
+397;Argentina;1;Oficinas administrativas;Argentina;-38.41;-63.61
+398;Paraná;1;Oficinas administrativas;Argentina;-38.41;-63.61
+436;Argentina;1;Puente Grúa;Argentina;-38.41;-63.61
+437;Paraná;1;Puente Grúa;Argentina;-38.41;-63.61
+451;Paraná;1;Corte Longitudinal;Argentina;-38.41;-63.61
+476;Argentina;1;Carpinteria;Argentina;-38.41;-63.61
+477;Paraná;1;Carpinteria;Argentina;-38.41;-63.61
+515;Argentina;1;Almacen de recambios;Argentina;-38.41;-63.61
+516;Paraná;1;Almacen de recambios;Argentina;-38.41;-63.61
+554;Argentina;1;Almacen productos quimicos;Argentina;-38.41;-63.61
+555;Paraná;1;Almacen productos quimicos;Argentina;-38.41;-63.61
+587;Argentina;1;Residuos productos quimicos;Argentina;-38.41;-63.61
+588;Paraná;1;Residuos productos quimicos;Argentina;-38.41;-63.61
+620;Argentina;1;Carretilla;Argentina;-38.41;-63.61
+621;Paraná;1;Carretilla;Argentina;-38.41;-63.61
+653;Argentina;1;Coil to Coil;Argentina;-38.41;-63.61
+654;Paraná;1;Coil to Coil;Argentina;-38.41;-63.61
+86;Thüringen;1;Blanking;Alemania;51.16;10.45
+87;Thüringen;1;Corte Láser 3D;Alemania;51.16;10.45
+88;Thüringen;1;Corte Longitudinal;Alemania;51.16;10.45
+116;Thüringen;1;Almacén de Materia Prima;Alemania;51.16;10.45
+155;Thüringen;1;Almacén de Producto Terminado;Alemania;51.16;10.45
+194;Thüringen;1;Almacén producto semielaborado o en producción;Alemania;51.16;10.45
+233;Thüringen;1;Área de embalado;Alemania;51.16;10.45
+272;Thüringen;1;Instalaciones exteriores y auxiliares;Alemania;51.16;10.45
+311;Thüringen;1;Mantenimiento;Alemania;51.16;10.45
+350;Thüringen;1;Maquinaria Auxiliar;Alemania;51.16;10.45
+389;Thüringen;1;Oficinas administrativas;Alemania;51.16;10.45
+428;Thüringen;1;Puente Grúa;Alemania;51.16;10.45
+468;Thüringen;1;Carpinteria;Alemania;51.16;10.45
+507;Thüringen;1;Almacen de recambios;Alemania;51.16;10.45
+546;Thüringen;1;Almacen productos quimicos;Alemania;51.16;10.45
+579;Thüringen;1;Residuos productos quimicos;Alemania;51.16;10.45
+612;Thüringen;1;Carretilla;Alemania;51.16;10.45
+645;Thüringen;1;Coil to Coil;Alemania;51.16;10.45
+700;Thüringen;1;General;Alemania;51.16;10.45
 21;Campinas;1;Cizalla;Brasil;-14.23;-51.92
 22;Campinas;1;Corte Longitudinal;Brasil;-14.23;-51.92
 23;Campinas;1;Corte Transversal;Brasil;-14.23;-51.92
