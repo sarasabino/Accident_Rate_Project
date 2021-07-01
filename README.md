@@ -57,7 +57,7 @@ First result obtained:
 
 Applying the best parameters by the GridSearchCV and without the balanced dataset: accuracy of 0.8 but with a 0 for the 'Yes' class.
 - accuracy : 0.80
-![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/'decision tree_second'.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/decision_tree_second.PNG)
 
 Latest results obtained with the oversample technique and hiperparameter optimization:
 
