@@ -50,6 +50,7 @@ In order to achieve better results we did a GridSearchCV to find the best hiperp
 To solve our problem with the minority class 'Yes', we tried to assign proportionally calculated weights to the model but it delivered bad results as well. The second option that we tried was to oversample the minority class to balance our classes and achieve better results.
 
 First results achieved: accuracy of 0.8 but with a 0 for the 'Yes' class.
+
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/first_decision_tree_cm.PNG)
 
 Latest results obtained with the oversample technique and hiperparameter optimization:
@@ -66,20 +67,35 @@ Althought the total accuracy of the model has decreased we achieved to got almos
 
 As we have seen that the models need to be balanced, we have performed the random forest with the balanced data from previous steps.
 
-We have also performed a GridSearchCv to try get the best results we can get.
+We have also performed a GridSearchCv to try get the best results we can get. In this model we achieved the following results:
+
+- accuracy: 0.76
+- precision 'No' : 0.79
+- precision 'Yes' : 0.74
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/random_forest_cm.PNG)
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/rforest_learning_curve.PNG)
 
 #### XGBoost
 
+- accuracy : 0.76
+- precision 'No' : 0.79
+- precision 'Yes' : 0.74
+
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/xgboost_cm.PNG)
 
 #### SVM: Support Vector Machine
 
+Performing the GridSearchCV to find the best parameters we have increase a little bit the model's metrics.
+
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/svm_cm.PNG)
 
 ### Applying Deep Learning: Neural Networks
+
+Before normalizing the data the neural network delivered very bad metrics after normalizing the data and try to combine the parameters to obtain the best results we have obtained the following metrics:
+
+- accuracy: 0.90
+- loss: 0.39
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neuraln_loss.PNG)
 
