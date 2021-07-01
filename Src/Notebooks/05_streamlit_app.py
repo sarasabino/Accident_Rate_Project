@@ -2,7 +2,7 @@
 """
 Created on Wed Jun 30 11:11:04 2021
 
-@author: lique
+@author: sarasabino
 """
 import streamlit as st
 import pandas as pd
