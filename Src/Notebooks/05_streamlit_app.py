@@ -15,9 +15,9 @@ st.set_page_config(
      initial_sidebar_state="expanded",
  )
 
-st.title("Accident Prediction Application")
+st.title("Data/Accident Prediction Application")
 
-DATA_URL = 'Data/staff_encoded.csv'         
+DATA_URL = 'staff_encoded.csv'         
 
 ## we are going to upload the data to show it on the interface
 
@@ -56,9 +56,7 @@ n_employees = staff.groupby(by=['Tecnología',
        'Accident', 'Severity']).agg('sum')
 
 n_employees = n_employees.reset_index()
-n_employees.drop(columns={'Planta', 'Horas Presencia Efectiva Subcontratados',
-       'Horas Presencia Efectiva ETTs', 'Horas Formacion Seguridad Propios',
-       'Horas Formacion Seguridad ETTs'}, inplace=True)
+#n_employees.drop(columns={'Planta', 'Horas Presencia Efectiva Subcontratados','Horas Presencia Efectiva ETTs', 'Horas Formacion Seguridad Propios','Horas Formacion Seguridad ETTs'}, inplace=True)
 
 n_employees_acc = n_employees.loc[n_employees['Accident']=='Yes']
 n_employees_acc.rename(columns={'N employees':'N accidents', 'Tecnología':'Technology'}, inplace=True)
