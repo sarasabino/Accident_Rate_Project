@@ -64,6 +64,10 @@ Althought the total accuracy of the model has decreased we achieved to got almos
 
 #### Random Forest Algorithm
 
+As we have seen that the models need to be balanced, we have performed the random forest with the balanced data from previous steps.
+
+We have also performed a GridSearchCv to try get the best results we can get.
+
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/random_forest_cm.PNG)
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/rforest_learning_curve.PNG)
 
