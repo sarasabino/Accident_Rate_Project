@@ -140,9 +140,7 @@ with col4:
 n_employees = staff.groupby(by=['Fabrica', 'Gender','Tipo trabajador']).agg('sum')
 
 n_employees = n_employees.reset_index()
-n_employees.drop(columns={'Planta', 'Horas Presencia Efectiva Subcontratados',
-       'Horas Presencia Efectiva ETTs', 'Horas Formacion Seguridad Propios',
-       'Horas Formacion Seguridad ETTs'}, inplace=True)
+#n_employees.drop(columns={'Planta', 'Horas Presencia Efectiva Subcontratados','Horas Presencia Efectiva ETTs', 'Horas Formacion Seguridad Propios','Horas Formacion Seguridad ETTs'}, inplace=True)
 
 
 chart3 = alt.Chart(n_employees, title="Nº employees by Fabric and Gender").mark_bar().encode( 
