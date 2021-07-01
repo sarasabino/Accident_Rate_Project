@@ -29,6 +29,8 @@ We are going to try multiple machine learning models and see which one has bette
 
 #### Logistic Regression
 
+At first it seems this results were good because the accuracy of the model is 0.89, but if we focus on the performance with the 'Yes' label is 0, so the model is always predicting 'No'. We need to improve that prediction by balancing the dataset and running again the model.
+
 - accuracy: 0.89
 - precision "No" : 0.80
 - precision 'Yes': 0
