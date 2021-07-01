@@ -15,9 +15,9 @@ st.set_page_config(
      initial_sidebar_state="expanded",
  )
 
-st.title("Data/Accident Prediction Application")
+st.title("Accident Prediction Application")
 
-DATA_URL = 'staff_encoded.csv'         
+DATA_URL = 'Data/staff_encoded.csv'         
 
 ## we are going to upload the data to show it on the interface
 
