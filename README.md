@@ -19,17 +19,48 @@ Sara Sabino Martínez
 ## Analysis conclusions
 
 ## Modeling
+
 ### Feature understanding and selection
 
 ### Seeking best Machine Learning model
 
+#### Logistic Regression
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/logistic_regression_cm.PNG)
+
+
+#### K Nearest Neighbors
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neighbors_cm.PNG)
+
+#### Decision Tree
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/decision_tree_cm.PNG)
+
+#### Random Forest Algorithm
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/random_forest_cm.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/rforest_learning_curve.PNG)
+
+#### XGBoost
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/xgboost_cm.PNG)
+
+#### SVM: Support Vector Machine
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/svm_cm.PNG)
+
 ### Applying Deep Learning: Neural Networks
 
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neuraln_loss.PNG)
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neuraln_accuracy.PNG)
 
 ## Conclusions
 
 ## Front-end 🚀
 https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/05_streamlit_app.py
+
 
 ## Built with 🛠️
 
