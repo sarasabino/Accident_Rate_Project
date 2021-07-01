@@ -17,7 +17,7 @@ st.set_page_config(
 
 st.title("Accident Prediction Application")
 
-DATA_URL = 'staff_encoded.csv'         
+DATA_URL = 'Accident_Rate_Project/Data/staff_encoded.csv'         
 
 ## we are going to upload the data to show it on the interface
 
@@ -38,7 +38,7 @@ st.write(data)
 
 st.subheader('Overview analysis from company staff')
 
-staff = pd.read_csv('Total_staff_by_employee.csv', sep=';')
+staff = pd.read_csv('Accident_Rate_Project/Data/Total_staff_by_employee.csv', sep=';')
 
 staff['N employees'] = 1
 staff['Severity'] = staff['Severity'].fillna('N/A')
@@ -91,7 +91,7 @@ col3, col4 = st.beta_columns((2,1))
 
 
 
-plantas = pd.read_csv('G_Plantas y Tech.csv', sep=';')
+plantas = pd.read_csv('Accident_Rate_Project/Data/G_Plantas y Tech_streamlit.csv', sep=';')
 
 map_dt = data.merge(plantas, on=['Fabrica'])
 map_dt.drop(columns={'ID', 'Activo', 'Tecnología'}, inplace=True)
@@ -120,8 +120,9 @@ with col3:
     folium_static(m)
 
 ## ---------- chart accidents
-import matplotlib.pyplot as plt
+import matplotlib
 
+import matplotlib.pyplot as plt
 labels = 'Employees Accidents', 'Employees without accident'
 sizes = [len(staff[staff['Accident']=='Yes']), len(staff[staff['Accident']=='No'])]
 explode = (0, 0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
@@ -131,7 +132,7 @@ ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
             shadow=True, startangle=90)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
-st.subheader('% employees who suffered an accident')
+
 with col4:
     st.pyplot(fig1)
 
