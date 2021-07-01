@@ -60,7 +60,7 @@ n_employees.drop(columns={'Planta', 'Horas Presencia Efectiva Subcontratados',
        'Horas Presencia Efectiva ETTs', 'Horas Formacion Seguridad Propios',
        'Horas Formacion Seguridad ETTs'}, inplace=True)
 
-n_employees_acc = n_employees[n_employees['Accident']=='Yes']
+n_employees_acc = n_employees.loc[n_employees['Accident']=='Yes']
 n_employees_acc.rename(columns={'N employees':'N accidents', 'Tecnología':'Technology'}, inplace=True)
 
 chart2 = alt.Chart(n_employees_acc,title="Nº Accidents by Technology and Sevirity").mark_line().encode( 
@@ -98,10 +98,9 @@ map_dt.drop(columns={'ID', 'Activo', 'Tecnología'}, inplace=True)
 map_dt = map_dt.groupby(['Fabrica', 'Accident', 'Pais', 'lat', 'lon']).agg(sum)
 map_dt = map_dt.reset_index()
 
-accidents = map_dt[map_dt['Accident']=='Yes']
+accidents = map_dt.loc[map_dt['Accident']=='Yes']
 accidents.rename(columns={'N employees' : 'N accidents'}, inplace=True)
 
-accidents['N accidents'] = accidents['N accidents'].astype(str)
 
 import folium
 from folium import plugins
@@ -113,7 +112,7 @@ m = folium.Map()
 
 for (index, row) in accidents.iterrows():
     folium.Marker(location=[row.loc['lat'], row.loc['lon']],
-                  popup = row.loc['Pais'] + ' ' + 'Nº Accidents: ' + row.loc['N accidents'] ).add_to(m)
+                  popup = [row.loc['Pais'] + ' ' + 'Nº Accidents: ', row.loc['N accidents']]).add_to(m)
 
 with col3:
     st.subheader('Nº accidents per country')
