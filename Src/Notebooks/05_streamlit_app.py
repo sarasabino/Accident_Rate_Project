@@ -17,7 +17,7 @@ st.set_page_config(
 
 st.title("Accident Prediction Application")
 
-DATA_URL = 'Accident_Rate_Project/Data/staff_encoded.csv'         
+DATA_URL = 'Data/staff_encoded.csv'         
 
 ## we are going to upload the data to show it on the interface
 
@@ -38,7 +38,7 @@ st.write(data)
 
 st.subheader('Overview analysis from company staff')
 
-staff = pd.read_csv('Accident_Rate_Project/Data/Total_staff_by_employee.csv', sep=';')
+staff = pd.read_csv('Data/Total_staff_by_employee.csv', sep=';')
 
 staff['N employees'] = 1
 staff['Severity'] = staff['Severity'].fillna('N/A')
@@ -91,7 +91,7 @@ col3, col4 = st.beta_columns((2,1))
 
 
 
-plantas = pd.read_csv('Accident_Rate_Project/Data/G_Plantas y Tech_streamlit.csv', sep=';')
+plantas = pd.read_csv('Data/G_Plantas y Tech_streamlit.csv', sep=';')
 
 map_dt = data.merge(plantas, on=['Fabrica'])
 map_dt.drop(columns={'ID', 'Activo', 'Tecnología'}, inplace=True)
