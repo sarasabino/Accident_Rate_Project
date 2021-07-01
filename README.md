@@ -15,7 +15,7 @@ https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/0
 ---
 
 
-![alt text](https://github.com/sarasabino/Accident_Rate_Project/Images/decision_tree_cm.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/Images/decision_tree_cm.PNG)
 
 ---
 ⌨️ con ❤️ por [sarasabino](https://github.com/sarasabino) 😊
