@@ -162,8 +162,8 @@ Before normalizing the data the neural network delivered the following results:
 - accuracy: 0.92
 - loss: 0.69
 
-![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/first_nn_loss.PNG)
-![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/first_nn_accuracy.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/first_nn_loss.png)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/first_nn_accuracy.png)
 
 After normalizing the data and use the reduced dataset, we create the following model:
 ```
@@ -190,7 +190,7 @@ The results obtained the first time with 30 epochs and a batch_size of 10:
 - loss: 0.40
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/second_nn_loss.png)
-![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/second_nn_categorical_acc.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/second_nn_categorical_acc.png)
 
 
 The second time we run this model we did it with 64 epochs and a batch_size of 40. We obtained the following results:
