@@ -50,7 +50,7 @@ As this results are not valid because it is very important for us to predict whe
 - precision 'No': 0.76
 - precision 'Yes': 0.60
 
-![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/logistic_regression_cm_os.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/logistic_regression_cm_os.png)
 
 #### K Nearest Neighbors
 
@@ -65,7 +65,7 @@ Although the previous results, were not bad with the unbalanced dataset we are g
 -accuracy: 0.74
 - precision 1/0: 0.74
 
-![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neighbors_cm_os.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neighbors_cm_os.png)
 
 
 #### Decision Tree
