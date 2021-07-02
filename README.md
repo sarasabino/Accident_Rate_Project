@@ -118,8 +118,11 @@ We applied a GridSearchCV to find the best parameters, the results obtained were
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/xgboost_cm.PNG)
 
 #### SVM: Support Vector Machine
-As SVM works well with small datasets and not awesome with large ones and it will take forever to optimize with cross validations, we downsample both categories to see how it will perform. 
-We reduced both labels to 2000, having a total dataset of 4000.
+
+As SVM works well with small datasets and not awesome with large ones and it will take forever to optimize with cross validations, we downsample both categories to see how it will perform. We reduced both labels to 2000, having a total dataset of 4000.
+
+We used a Gaussian radial basis function (RBF) kernell because it is commonly use for general-purpose.
+
 The first time we performed this model we achieved the following results:
 - accuracy: 0.69
 - precision 'No': 0.75
@@ -132,6 +135,8 @@ Performing the GridSearchCV to find the best parameters we have increase a littl
 - precision 'Yes': 0.67
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/svm_cm.PNG)
+
+We tried to perform the model changing to a linnear kernell, as it is used when there is a large number of features in the dataset.
 
 ### Applying Deep Learning: Neural Networks
 
