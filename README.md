@@ -38,12 +38,19 @@ Both metrics are important for our models as we need to be sure that we have a g
 
 At first it seems this results were good because the accuracy of the model is 0.89, but if we focus on the performance with the 'Yes' label is 0, so the model is always predicting 'No'. We need to improve that prediction by balancing the dataset and running again the model.
 
-- accuracy: 0.89
+- accuracy: 0.80
 - precision "No" : 0.80
 - precision 'Yes': 0
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/logistic_regression_cm.PNG)
 
+As this results are not valid because it is very important for us to predict when an accident is going to happen, we are going to perform the model again but with the balanced dataset this time.
+
+- accuracy: 0.64
+- precision 'No': 0.76
+- precision 'Yes': 0.60
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/logistic_regression_cm_os.PNG)
 
 #### K Nearest Neighbors
 
@@ -52,6 +59,14 @@ At first it seems this results were good because the accuracy of the model is 0.
 - precision 'Yes': 0.49
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neighbors_cm.PNG)
+
+Although the previous results, were not bad with the unbalanced dataset we are going to try with the balanced one and see if there is any improvement.
+
+-accuracy: 0.74
+- precision 1/0: 0.74
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neighbors_cm_os.PNG)
+
 
 #### Decision Tree
 
@@ -69,8 +84,8 @@ Applying the best parameters by the GridSearchCV and without the balanced datase
 
 Latest results obtained with the oversample technique and hiperparameter optimization:
 
-- accuracy: 0.76
-- precision 'No' : 0.79
+- accuracy: 0.77
+- precision 'No' : 0.81
 - precision 'Yes' : 0.74
 
 Althought the total accuracy of the model has decreased we achieved to got almost the same accuracy for both classes.
@@ -96,29 +111,81 @@ In this model we achieved the following results:
 
 We applied a GridSearchCV to find the best parameters, the results obtained were the following ones:
 
-- accuracy : 0.76
-- precision 'No' : 0.79
+- accuracy : 0.77
+- precision 'No' : 0.81
 - precision 'Yes' : 0.74
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/xgboost_cm.PNG)
 
 #### SVM: Support Vector Machine
 As SVM works well with small datasets and not awesome with large ones and it will take forever to optimize with cross validations, we downsample both categories to see how it will perform. 
-We reduced both labels to 1000, having a total dataset of 2000.
+We reduced both labels to 2000, having a total dataset of 4000.
+The first time we performed this model we achieved the following results:
+- accuracy: 0.69
+- precision 'No': 0.75
+- precision 'Yes': 0.65
+
 Performing the GridSearchCV to find the best parameters we have increase a little bit the model's metrics.
+
+- accuracy: 0.71
+- precision 'No': 0.75
+- precision 'Yes': 0.67
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/svm_cm.PNG)
 
 ### Applying Deep Learning: Neural Networks
 
 In order to evaluate the neural networks models we are going to perform the following metrics:
+
 - Categorical accuracy: is the number of correctly predicted data points out of all the data points.
 - Loss: determine how far the predicted values deviate from the actual values in the trainning data.
 
-Before normalizing the data the neural network delivered very bad metrics after normalizing the data and try to combine the parameters to obtain the best results we have obtained the following metrics:
+First model use:
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 32)                512       
+_________________________________________________________________
+dense_1 (Dense)              (None, 16)                528       
+_________________________________________________________________
+dense_2 (Dense)              (None, 2)                 34        
+=================================================================
+Total params: 1,074
+Trainable params: 1,074
+Non-trainable params: 0
 
-- Categorical accuracy: 0.90
-- Loss: 0.39
+Before normalizing the data the neural network delivered the following results:
+
+- accuracy: 0.92
+- loss: 0.69
+
+
+After normalizing the data and use the reduced dataset, we create the following model:
+
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_3 (Dense)              (None, 32)                416       
+_________________________________________________________________
+dense_4 (Dense)              (None, 16)                528       
+_________________________________________________________________
+dense_5 (Dense)              (None, 2)                 34        
+=================================================================
+Total params: 978
+Trainable params: 978
+Non-trainable params: 0
+
+In the first and second layer we used 'relu' as activation function and in the third we used 'softmax'.
+The results obtained the first time with 30 epochs and a batch_size of 10:
+
+- accuracy: 0.88
+- loss: 0.40
+
+The second time we run this model we did it with 64 epochs and a batch_size of 40. We obtained the following results:
+- Categorical accuracy: 0.92
+- Loss: 0.40
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neuraln_loss.PNG)
 
