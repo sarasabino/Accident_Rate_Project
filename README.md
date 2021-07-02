@@ -141,6 +141,7 @@ In order to evaluate the neural networks models we are going to perform the foll
 - Loss: determine how far the predicted values deviate from the actual values in the trainning data.
 
 First model use:
+```
 Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -154,6 +155,7 @@ dense_2 (Dense)              (None, 2)                 34
 Total params: 1,074
 Trainable params: 1,074
 Non-trainable params: 0
+```
 
 Before normalizing the data the neural network delivered the following results:
 
@@ -162,7 +164,7 @@ Before normalizing the data the neural network delivered the following results:
 
 
 After normalizing the data and use the reduced dataset, we create the following model:
-
+```
 Model: "sequential_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -176,6 +178,8 @@ dense_5 (Dense)              (None, 2)                 34
 Total params: 978
 Trainable params: 978
 Non-trainable params: 0
+```
+
 
 In the first and second layer we used 'relu' as activation function and in the third we used 'softmax'.
 The results obtained the first time with 30 epochs and a batch_size of 10:
