@@ -39,8 +39,19 @@ Both metrics are important for our models as we need to be sure that we have a g
 At first it seems this results were good because the accuracy of the model is 0.89, but if we focus on the performance with the 'Yes' label is 0, so the model is always predicting 'No'. We need to improve that prediction by balancing the dataset and running again the model.
 
 - accuracy: 0.80
-- precision "No" : 0.80
-- precision 'Yes': 0
+
+
+```
+              precision    recall  f1-score   support
+
+          No       0.80      1.00      0.89      5635
+         Yes       0.00      0.00      0.00      1365
+
+    accuracy                           0.80      7000
+   macro avg       0.40      0.50      0.45      7000
+weighted avg       0.65      0.80      0.72      7000
+
+```
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/logistic_regression_cm.PNG)
 
