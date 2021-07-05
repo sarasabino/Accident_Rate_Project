@@ -6,6 +6,8 @@ Created on Wed Jun 30 11:11:04 2021
 """
 import streamlit as st
 import pandas as pd
+import pickle
+import numpy as np
 
 # Use the full page instead of a narrow central column
 st.set_page_config(
@@ -15,7 +17,14 @@ st.set_page_config(
      initial_sidebar_state="expanded",
  )
 
-st.title("Accident Prediction Application")
+html_title = """
+    <div style = "background-color:#4472C4;padding:10px">
+    <h2 style="color:white;text-align:left;">Accident Prediction Application </h2>
+    </div>
+    """
+
+
+st.markdown(html_title,unsafe_allow_html=True)
 
 DATA_URL = 'Data/staff_encoded.csv'         
 
@@ -154,3 +163,55 @@ chart3 = alt.Chart(n_employees, title="Nº employees by Fabric and Gender").mark
 st.subheader('Employees by Fabric and Gender')
 
 st.altair_chart(chart3,use_container_width=True)
+
+#------ MODEL
+
+pickle_in = open('Data/random_forest_model', 'rb')
+model = pickle.load(pickle_in)
+
+def predict_accident(features_array):
+    prediction = model.predict(features_array)
+    print(prediction)
+    return prediction    
+
+def main():
+    
+    html_temp = """
+    <div style = "background-color:tomato;padding:10px">
+    <h2 style="color:white;text-align:left;">Random Forest Model: Get your Prediction </h2>
+    </div>
+    """
+    
+    st.markdown(html_temp, unsafe_allow_html=True)
+    st.markdown('The model used to generate this prediction is a Random Forest Model with an accuracy of 0.77 and a precision in the "yes" class of 0.74.')
+    st.markdown('The data used to train the model was previously balanced between the target classes to achieve better results.')
+    st.markdown('**Fill the following form and click on predict** :point_down:')
+    
+    Horas_Subcontratados = st.number_input('Horas Subcontratados', key='Horas_Subcontratados', help='Enter the nº of working hours in that plant for subcontracted employees')
+    Horas_ETTs = st.number_input('Horas ETT', key='Horas_ETTs', help='Enter the nº of working hours in that plant for ETTs')
+    Horas_formacion_propios= st.number_input('Horas formacion propios', key='Horas_formacion_propios', help='Enter the nº of trainning hours in that plant')
+    Horas_formacion_ETTs= st.number_input('Horas formacion ETT', key='Horas_formacion_ETTs', help='Enter the nº of trainning hours in that plant for ETTs')
+    Man= st.number_input('Man', key='man', min_value=0, max_value=1, help='If employee is a man enter 1, if not 0')
+    Morning= st.number_input('Morning turn', key='Morning',min_value=0, max_value=1, help='Enter a 1 when the turn is morning')
+    Night= st.number_input('Night turn', key='Night', min_value=0, max_value=1, help='Enter a 1 when the turn is night')
+    Evening= st.number_input('Evening turn', key='Evening', min_value=0, max_value=1,help='Enter a 1 when the turn is evening')
+    Age_30_50= st.number_input('Age 30-50', key='Age_30_50', min_value=0, max_value=1,help='Enter a 1 when employees age is between 30-50')
+    Age_more50 = st.number_input('Age > 50', key='Age_more50', min_value=0, max_value=1, help='Enter a 1 when employees age is more than 50')
+    undefined= st.number_input( 'Undefined contract', key='undefined', min_value=0, max_value=1, help='Answer is 1 when the type of contract is undefined')
+    Other= st.number_input('Other type of contract', key='other', min_value=0, max_value=1, help='Answer is 1 when the type of contract is different from temporal/undefined')
+    
+    features_array = [Horas_Subcontratados, Horas_ETTs, Horas_formacion_propios, Horas_formacion_ETTs, Man,Morning, Night, Evening,Age_30_50, Age_more50, undefined, Other]
+    features_array = np.array(features_array)
+    features_array = features_array.reshape(1,-1)
+    result=''
+    
+    if st.button('Predict'):
+        result=predict_accident(features_array)
+        st.markdown('**Is this employee going to have an accident?**')
+        st.success('The output is {}'.format(result))
+        
+        
+        
+if __name__=='__main__':
+    main()
+
