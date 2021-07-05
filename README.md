@@ -57,24 +57,50 @@ weighted avg       0.65      0.80      0.72      7000
 
 As this results are not valid because it is very important for us to predict when an accident is going to happen, we are going to perform the model again but with the balanced dataset this time.
 
-- accuracy: 0.64
-- precision 'No': 0.76
-- precision 'Yes': 0.60
+- accuracy: 0.66
+```
+              precision    recall  f1-score   support
+
+          No       0.78      0.45      0.57      5620
+         Yes       0.61      0.87      0.72      5620
+
+    accuracy                           0.66     11240
+   macro avg       0.70      0.66      0.65     11240
+weighted avg       0.70      0.66      0.65     11240
+
+```
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/logistic_regression_cm_os.png)
 
 #### K Nearest Neighbors
 
 - accuracy: 0.80
-- precision 'No' : 0.84
-- precision 'Yes': 0.49
+```
+              precision    recall  f1-score   support
 
+          No       0.84      0.94      0.88      5635
+         Yes       0.49      0.25      0.34      1365
+
+    accuracy                           0.80      7000
+   macro avg       0.67      0.60      0.61      7000
+weighted avg       0.77      0.80      0.78      7000
+```
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neighbors_cm.PNG)
 
 Although the previous results, were not bad with the unbalanced dataset we are going to try with the balanced one and see if there is any improvement.
 
 -accuracy: 0.74
-- precision 1/0: 0.74
+```
+
+              precision    recall  f1-score   support
+
+           0       0.72      0.77      0.74      5620
+           1       0.75      0.70      0.73      5620
+
+    accuracy                           0.73     11240
+   macro avg       0.74      0.73      0.73     11240
+weighted avg       0.74      0.73      0.73     11240
+```
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/neighbors_cm_os.png)
 
@@ -96,9 +122,16 @@ Applying the best parameters by the GridSearchCV and without the balanced datase
 Latest results obtained with the oversample technique and hiperparameter optimization:
 
 - accuracy: 0.77
-- precision 'No' : 0.81
-- precision 'Yes' : 0.74
+```
+              precision    recall  f1-score   support
 
+          No       0.79      0.73      0.76      5620
+         Yes       0.75      0.81      0.78      5620
+
+    accuracy                           0.77     11240
+   macro avg       0.77      0.77      0.77     11240
+weighted avg       0.77      0.77      0.77     11240
+```
 Althought the total accuracy of the model has decreased we achieved to got almost the same accuracy for both classes.
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/decision_tree_cm.PNG)
@@ -112,9 +145,16 @@ We have also performed a GridSearchCv to try get the best results we can get, al
 In this model we achieved the following results:
 
 - accuracy: 0.76
-- precision 'No' : 0.79
-- precision 'Yes' : 0.74
+```
+              precision    recall  f1-score   support
 
+          No       0.79      0.68      0.73      5620
+         Yes       0.72      0.82      0.77      5620
+
+    accuracy                           0.75     11240
+   macro avg       0.76      0.75      0.75     11240
+weighted avg       0.76      0.75      0.75     11240
+```
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/random_forest_cm.PNG)
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/rforest_learning_curve.PNG)
 
@@ -123,9 +163,16 @@ In this model we achieved the following results:
 We applied a GridSearchCV to find the best parameters, the results obtained were the following ones:
 
 - accuracy : 0.77
-- precision 'No' : 0.81
-- precision 'Yes' : 0.74
+```
+              precision    recall  f1-score   support
 
+          No       0.79      0.71      0.75      5620
+         Yes       0.74      0.81      0.77      5620
+
+    accuracy                           0.76     11240
+   macro avg       0.76      0.76      0.76     11240
+weighted avg       0.76      0.76      0.76     11240
+```
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/xgboost_cm.PNG)
 
 #### SVM: Support Vector Machine
@@ -136,14 +183,29 @@ We used a Gaussian radial basis function (RBF) kernell because it is commonly us
 
 The first time we performed this model we achieved the following results:
 - accuracy: 0.69
-- precision 'No': 0.75
-- precision 'Yes': 0.65
+```
+              precision    recall  f1-score   support
 
+          No       0.75      0.63      0.68       524
+         Yes       0.65      0.76      0.70       476
+
+    accuracy                           0.69      1000
+   macro avg       0.70      0.70      0.69      1000
+weighted avg       0.70      0.69      0.69      1000
+```
 Performing the GridSearchCV to find the best parameters we have increase a little bit the model's metrics.
 
 - accuracy: 0.71
-- precision 'No': 0.75
-- precision 'Yes': 0.67
+```
+              precision    recall  f1-score   support
+
+          No       0.75      0.66      0.70       524
+         Yes       0.67      0.76      0.71       476
+
+    accuracy                           0.71      1000
+   macro avg       0.71      0.71      0.71      1000
+weighted avg       0.71      0.71      0.71      1000
+```
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/svm_cm.PNG)
 
