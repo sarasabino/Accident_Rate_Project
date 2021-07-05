@@ -9,6 +9,8 @@ import pandas as pd
 import pickle
 import numpy as np
 import sklearn
+from sklearn.ensemble import RandomForestClassifier
+
 
 # Use the full page instead of a narrow central column
 st.set_page_config(
