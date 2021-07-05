@@ -172,7 +172,7 @@ Hard Votting Classifier
 - precision 'Yes': 0.72
 - precision 'No': 0.80
 
-![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/hard_votting_classifier.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/hard_votting_classifier.png)
 
 Soft Votting Classifier
 
@@ -180,7 +180,7 @@ Soft Votting Classifier
 - precision 'Yes': 0.73
 - precision 'No': 0.80
 
-![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/soft_votting_classifier.PNG)
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/soft_votting_classifier.png)
 
 #### Bagging or Bootstrap Aggregation : Random Forest
 
