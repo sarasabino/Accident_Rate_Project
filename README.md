@@ -138,6 +138,9 @@ Performing the GridSearchCV to find the best parameters we have increase a littl
 
 We tried to perform the model changing to a linnear kernell, as it is used when there is a large number of features in the dataset.
 
+#### Voting Classifier
+#### Bagging Classifier
+
 ### Applying Deep Learning: Neural Networks
 
 In order to evaluate the neural networks models we are going to perform the following metrics:
