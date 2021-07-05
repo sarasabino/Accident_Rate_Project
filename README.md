@@ -138,8 +138,58 @@ Performing the GridSearchCV to find the best parameters we have increase a littl
 
 We tried to perform the model changing to a linnear kernell, as it is used when there is a large number of features in the dataset.
 
+#### Ensemble models
+An Ensemble is a combination of machine learning models, each model makes a different prediction, the different predictions get combined to obtain a unique prediction. We are going to try voting and bagging techniques to see if we are able to increase our predictions.
+
 #### Voting Classifier
-#### Bagging Classifier
+Each model makes a prediction, the final prediction will be the one voted by more models. There are two types of votting classifiers:
+- Hard voting classifiers consider the class output and then takes the majority
+- Soft voting classifiers takes a probability score and then averages out the probabilities.
+
+At first we started by trying to combine not too dificult models, we tried Logistic Regression, Random Forest and Naive Bayes. The obtained results compared to the models results were:
+
+```
+Accuracy : 0.66 (+/- 0.00) [Logistic Regression]
+Accuracy : 0.76 (+/- 0.01) [Random Forest]
+Accuracy : 0.62 (+/- 0.00) [Naive Bayes]
+Accuracy : 0.67 (+/- 0.01) [Voting_Classifier_Hard]
+Accuracy : 0.74 (+/- 0.00) [Voting_Classifier_Soft]
+```
+Then in order to try to increase the results we combined Random Forest, XGBoost and Decision Tree. These were the models that achieved better metrics. With the votting classifier techniques the results obtained were the following, compared to the individual models results:
+
+```
+Accuracy : 0.76 (+/- 0.01) [XGBoost]
+Accuracy : 0.75 (+/- 0.01) [Random Forest]
+Accuracy : 0.76 (+/- 0.01) [Decision Tree]
+Accuracy : 0.76 (+/- 0.01) [Voting_Classifier_Hard]
+Accuracy : 0.76 (+/- 0.01) [Voting_Classifier_Soft]
+```
+The results from the votting classifiers increase in comparison with the first attemp. Lets see those results in detail:
+
+Hard Votting Classifier 
+
+- accuracy : 0.75
+- precision 'Yes': 0.72
+- precision 'No': 0.80
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/hard_votting_classifier.png)
+
+Soft Votting Classifier
+
+- accuracy : 0.75
+- precision 'Yes': 0.73
+- precision 'No': 0.80
+
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/soft_votting_classifier.png)
+
+#### Bagging or Bootstrap Aggregation : Random Forest
+
+This technique fits several models and average their predicitions in order to obtain a model with lower variance.
+We run this technique with the default parameters and obtained a mean accuracy = 0.758 and a std = 0.006. Although we try to improve the results by increasing the parameters to 400 estimators and the ones obtain in the GridSearchCv min_samples_leaf=1, max_depth=9, we didnt obtained a better off. The results were almost the same as the first time:
+
+- Mean accuracy: 0.758 
+- std: 0.006
+
 
 ### Applying Deep Learning: Neural Networks
 
