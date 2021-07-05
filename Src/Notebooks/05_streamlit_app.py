@@ -8,6 +8,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
+import sklearn
 
 # Use the full page instead of a narrow central column
 st.set_page_config(
