@@ -27,7 +27,7 @@ As well as predicting the accidents/no accident of the employees on our company,
 |
 ├── src / Notebooks                               # Code
 │   ├── 00_Data_generation.ipynb                          # Generation of the random data used in the models 
-│   ├── 01_Exploratorio_datos.ipynb                       # Data Analysis of the data received at first
+│   ├── 01_Exploratorio_datos.ipynb                       # Data Analysis of the data received in first instance
 │   ├── 02_Exploratory_Staff_data.ipynb                   # Data Analysis of employee level
 │   ├── 02_1_Exploratory_final_data.ipynb                 # Data Analysis of the random data generated for the study (this notebook contains altair charts not show in github)
 │   ├── 03_Correlation_analysis_&_feature_selection.ipynb # Analysis of features and selection
