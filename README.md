@@ -1,4 +1,5 @@
 # Accident Rate Project
+### Author ✒️: Sara Sabino Martínez
 
 An incidence rate (also known as an accident rate) is a way of measuring the safety of a workplace. The rate is calculated based on the number of accidents that happen during a particular period of time.
 
@@ -10,9 +11,6 @@ This project aims to help reduce those  accidents numbers by predicting if an em
 
 As well as predicting the accidents/no accident of the employees on our company, an analysis has been made to identify the company structure, workers profile, location etc...
 
-## Author ✒️
-
-Sara Sabino Martínez
 
 ## Stating point & random data generation
 
