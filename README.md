@@ -12,7 +12,7 @@ This project aims to help reduce those  accidents numbers by predicting if an em
 As well as predicting the accidents/no accident of the employees on our company, an analysis has been made to identify the company structure, workers profile, location etc...
 
 ## Repo Structure
-
+```
 .
 ├── Data                                   # Data used and generated during this study
 ├── Images                                 # Images shown in this README
@@ -27,6 +27,7 @@ As well as predicting the accidents/no accident of the employees on our company,
 │   ├── requirements.txt                    # requirements file to run the streamlit app
 └── README.md
     
+```
 
 ## Stating point & random data generation
 
