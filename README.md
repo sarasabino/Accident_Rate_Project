@@ -13,7 +13,20 @@ As well as predicting the accidents/no accident of the employees on our company,
 
 ## Repo Structure
 
-
+.
+├── Data                                   # Data used and generated during this study
+├── Images                                 # Images shown in this README
+├── src / Notebooks                  
+│   ├── 00_Data_generation.ipynb            #Generation of the random data used in the models 
+│   ├── 01_Exploratorio_datos.ipynb         # Data Analysis of the data received at first
+│   ├── 02_1_Exploratory_final_data.ipynb   # Data Analysis of the random data generated for the study
+│   ├── 02_Exploratory_Staff_data.ipynb     # Data Analysis of employee level
+│   ├── 03_Correlation_analysis_&_feature_selection.ipynb # Analysis of features and selection
+│   ├── 04_Model_selection.ipynb            # Training and evaluation of all the models studied
+│   ├── 05_streamlit_app.py                 # streamlit app py code
+│   ├── requirements.txt                    # requirements file to run the streamlit app
+└── README.md
+    
 
 ## Stating point & random data generation
 
