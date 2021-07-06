@@ -40,7 +40,7 @@ As well as predicting the accidents/no accident of the employees on our company,
 ```
 
 ## Stating point & random data generation
-
+anonimizar datos
 ## Analysis conclusions
 
 ## Modeling
