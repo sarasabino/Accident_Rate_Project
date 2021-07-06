@@ -15,6 +15,14 @@ As well as predicting the accidents/no accident of the employees on our company,
 ```
 .
 ├── Data                                                 # Data used and generated during this study
+│   ├── HS_Accidentabilidad.csv
+│   ├── G_Plantas y Tech.csv
+│   ├── Datos_plantilla_fabrica.csv
+│   ├── G_Plantas y Tech_streamlit.csv
+│   ├── Datos_plantilla.xlsx
+│   ├── Total_staff_by_employee.csv
+│   ├── random_forest_model
+│   ├── staff_encoded.csv
 ├── Images                                               # Images shown in this README
 ├── src / Notebooks                  
 │   ├── 00_Data_generation.ipynb                          #Generation of the random data used in the models 
