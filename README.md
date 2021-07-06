@@ -13,26 +13,28 @@ As well as predicting the accidents/no accident of the employees on our company,
 
 ## Repo Structure
 ```
-.
-├── Data                                                 # Data used and generated during this study
-│   ├── HS_Accidentabilidad.csv
-│   ├── G_Plantas y Tech.csv
-│   ├── Datos_plantilla_fabrica.csv
-│   ├── G_Plantas y Tech_streamlit.csv
-│   ├── Datos_plantilla.xlsx
-│   ├── Total_staff_by_employee.csv
-│   ├── random_forest_model
-│   ├── staff_encoded.csv
-├── Images                                               # Images shown in this README
-├── src / Notebooks                  
-│   ├── 00_Data_generation.ipynb                          #Generation of the random data used in the models 
+
+├── Data                                          # Data used and generated during this study
+│   ├── HS_Accidentabilidad.csv                         # Initial file with the accident's data of last years
+│   ├── G_Plantas y Tech.csv                            # This file contains the relation of the plants with their country & technology
+│   ├── G_Plantas y Tech_streamlit.csv                  # This data is only used in streamlit and contains the coordinates of the fabrics
+│   ├── Datos_plantilla.xlsx                            # Aggreagated staff data for analysis purposes
+│   ├── Total_staff_by_employee.csv                     # Data generated in notebook 00
+│   ├── random_forest_model                             # Saved Random Forest Model
+│   └──staff_encoded.csv                                # Data generated in notebook 03 with coded columns
+|
+├── Images                                        # Images shown in this README
+|
+├── src / Notebooks                               # Code
+│   ├── 00_Data_generation.ipynb                          # Generation of the random data used in the models 
 │   ├── 01_Exploratorio_datos.ipynb                       # Data Analysis of the data received at first
-│   ├── 02_1_Exploratory_final_data.ipynb                 # Data Analysis of the random data generated for the study
 │   ├── 02_Exploratory_Staff_data.ipynb                   # Data Analysis of employee level
+│   ├── 02_1_Exploratory_final_data.ipynb                 # Data Analysis of the random data generated for the study (this notebook contains altair charts not show in github)
 │   ├── 03_Correlation_analysis_&_feature_selection.ipynb # Analysis of features and selection
 │   ├── 04_Model_selection.ipynb                          # Training and evaluation of all the models studied
-│   ├── 05_streamlit_app.py                               # streamlit app py code
-│   ├── requirements.txt                                  # requirements file to run the streamlit app
+│   ├── 05_streamlit_app.py                               # Streamlit app py code
+│   └── requirements.txt                                  # Requirements file to run the streamlit app
+|
 └── README.md
     
 ```
