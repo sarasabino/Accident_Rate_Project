@@ -43,7 +43,7 @@ As well as predicting the accidents/no accident of the employees on our company,
 
 ## Conclusions
 
-## Front-end 🚀
+## Link to Front-end App 🚀
 
 https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/05_streamlit_app.py
 
