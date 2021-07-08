@@ -42,7 +42,7 @@ As well as predicting the accidents/no accident of the employees on our company,
 ## Objective
 
 ## Conclusions
-
+```
 	Model	Accuracy
 0	Logistic Regression	0.680605
 1	K Neighbors	0.703915
@@ -54,7 +54,7 @@ As well as predicting the accidents/no accident of the employees on our company,
 7	Hard-votting	0.738612
 8	Bagging Classifier	0.731415
 9	Neuronal Network	0.896143
-
+```
 ## Link to Front-end App 🚀
 
 https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/05_streamlit_app.py
