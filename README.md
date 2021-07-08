@@ -44,7 +44,7 @@ As well as predicting the accidents/no accident of the employees on our company,
 ## Conclusions
 ```
 
-	Model			Accuracy	No		Yes
+	Model			Accuracy	Prec No		Precc Yes
 0	Logistic Regression	0.684875	0.708802	0.665868
 1	K Neighbors		0.717794	0.694162	0.747974
 2	Decision Tree		0.751335	0.745524	0.757427
