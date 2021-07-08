@@ -43,17 +43,18 @@ As well as predicting the accidents/no accident of the employees on our company,
 
 ## Conclusions
 ```
-	Model			Accuracy
-0	Logistic Regression	0.680605
-1	K Neighbors		0.703915
-2	Decision Tree		0.750178
-3	Random Forest		0.733185
-4	XGBoost			0.750178
-5	SVM			0.707000
-6	Soft-votting		0.739324
-7	Hard-votting		0.738612
-8	Bagging Classifier	0.731415
-9	Neuronal Network	0.896143
+
+	Model			Accuracy	No		Yes
+0	Logistic Regression	0.684875	0.708802	0.665868
+1	K Neighbors		0.717794	0.694162	0.747974
+2	Decision Tree		0.751335	0.745524	0.757427
+3	Random Forest		0.732206	0.74042		0.724535
+4	XGBoost			0.751335	0.745524	0.757427
+5	SVM			0.707000	0.703704	0.711316
+6	Soft-votting		0.736833	0.746299	0.728067
+7	Hard-votting		0.735676	0.74496		0.72707
+8	Bagging Classifier	0.734703		
+9	Neuronal Network	0.908714		
 ```
 ## Link to Front-end App 🚀
 
