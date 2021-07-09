@@ -84,10 +84,11 @@ https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/0
 
 Overview of app dashboard:
 
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/Dashboard_overiew.PNG)
 
+Overview of the form:
 
-![Dashboard](https://raw.githubusercontent.com/sarasabino/maccident_rate_project/main/Images/Dashboard_overiew.png)
-https://raw.githubusercontent.com/sarasabino/master/Images/Prediction_form_overview.PNG
+![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/Prediction_form_overview.PNG)
 
 ## Built with 🛠️
 
