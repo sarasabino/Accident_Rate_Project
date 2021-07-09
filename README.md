@@ -1,6 +1,6 @@
 # Accident Rate Project
 
-###DATA SCIENCE MASTER TFM
+DATA SCIENCE MASTER TFM
 
 ### Author ✒️: Sara Sabino Martínez
 
