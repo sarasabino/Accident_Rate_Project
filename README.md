@@ -4,16 +4,18 @@ DATA SCIENCE MASTER TFM
 
 ### Author ✒️: Sara Sabino Martínez
 
-An incidence rate (also known as an accident rate) is a way of measuring the safety of a workplace. The rate is calculated based on the number of accidents that happen during a particular period of time.
+An incidence rate (also known as an accident rate) is a way of measuring the safety of a workplace. The rate is calculated based on the number of accidents that happens during a particular period of time.
 
-The Occupational Safety and Health Agency (OSHA), the federal agency that establishes safety regulations for workplaces, has a formula for calculating incidence rates. To determine the accident rate in a workplace, start by multiplying the number of accidents by 200,000. Then divide the result by the number of labor hours.
+The Occupational Safety and Health Agency (OSHA), the federal agency that establishes safety regulations for workplaces in US, has a formula for calculating incidence rates. To determine the accident rate in a workplace, start by multiplying the number of accidents by 200,000. Then divide the result by the number of labour hours.
 
-Accidents directly impact two crucial factors for business: money and reputation. Companies have been trying to reduce their injuries rates during the last years, indeed incidence rates have fallen 75% since 1972. Although this good metric there is still a lot of work to do. In 2019, employees in the US suffered 2.8 million workplace injuries, in Spain 1.3 million accidents occured during 2019. 
+Accidents directly impact two crucial factors for business: money and reputation. Companies have been trying to reduce their injuries rates during the last years, indeed incidence rates have fallen 75% since 1972. Although this good metric there is still a lot of work to do. In 2019, employees in the US suffered 2.8 million workplace injuries, in Spain 1.3 million accidents occurred during 2019.
+
 
 ## Objective
 
-The main objetives of this project are in first place to understand and analyze to get conclusion from the data so broad the knowledge of the company and to predict which employees are going to have an accident in order to be able to avoid this situations.
-This prediction will help companies to avoid those dangerous situations by being more aware of them and which factors influence more. 
+The main objectives of this project are, in first place, to understand and analyse the data to reach to a conclusion that allows the company to broad the knowledge and, to predict which employees are going to have an accident to be able to avoid those situations. 
+
+This prediction will help companies to avoid those dangerous situations by being more aware of them and which factors influence more.
 
 ## Instructions and structure
 
@@ -64,8 +66,7 @@ Shared folder structure
 ## Conclusions
 
 On the table below we can see a summary of all the results obtained in each model that has been performed. 
-As we can see the best results were achieve by the Decision Tree algorithms and the Neuronal Networks. The worse result was obtained by the Logistic Regression model.
-
+The best results were achieved by the Decision Tree algorithms and the Neuronal Networks. The worse result was obtained by the Logistic Regression model.
 
 ```
 
@@ -83,8 +84,8 @@ As we can see the best results were achieve by the Decision Tree algorithms and 
 ```
 ## Link to Front-end App 🚀
 
-The front-end of this project is develop in a streamlit application, the code can be found in this notebook. 
-The app is though to be for a client in a company that wants to see a analytical dashboard of the accidents in the company and then is going to have the option to complete a form in order to find if a particular employee is goign to have an accident.
+The front-end of this project is develop in a streamlit application, the code can be found in this notebook. The app is thought to be for a client in a company that wants to see a analytical dashboard of the accidents in the company and then is going to have the option to complete a form in order to find if a particular employee is goign to have an accident. 
+
 The model used in the application is a Random Forest Model.
 
 https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/05_streamlit_app.py
