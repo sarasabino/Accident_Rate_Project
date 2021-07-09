@@ -67,7 +67,8 @@ Shared folder structure
 
 On the table below we can see a summary of all the results obtained in each model that has been performed. 
 
-The best results were achieved by the Decision Tree algorithms and the Neuronal Networks. The worse result was obtained by the Logistic Regression model.
+The best results were achieved by the Decision Tree algorithms and the Neuronal Networks. 
+The worse result was obtained by the Logistic Regression model. This could be because our model is not linear so we need more complexity, that is why the Decision Tree model works better.
 
 ```
 
