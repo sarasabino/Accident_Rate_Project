@@ -72,7 +72,7 @@ Shared folder structure
 4	XGBoost	0.751335	0.745524	0.757427
 5	SVM	0.707000	0.703704	0.711316
 6	Soft-votting		0.736833	0.746299	0.728067
-7	Hard-votting		0.735676	0.74496	0.72707
+7	Hard-votting		0.735676	0.74496		0.72707
 8	Bagging Classifier	0.734703		
 9	Neuronal Network	0.908714			
 ```
