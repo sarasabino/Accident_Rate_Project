@@ -14,6 +14,8 @@ As well as predicting the accidents/no accident of the employees on our company,
 ## Repo Structure
 
 ```
+├── Data 
+│   └── G_Plantas y Tech_streamlit.csv    		# This data is only used in streamlit and contains the coordinates of the fabrics
 ├── Images                                        # Images shown in this README
 |
 ├── src / Notebooks                               # Code
