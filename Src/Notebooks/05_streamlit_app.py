@@ -8,7 +8,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
-import sklearn
 from sklearn.ensemble import RandomForestClassifier
 
 
@@ -60,7 +59,7 @@ data = staff.groupby(by=['Fabrica', 'Accident']).agg(sum)
 data = data[['N employees']].reset_index()
 
 
-chart = alt.Chart(data, title = 'Nº employees with/without accidents by Plant').mark_line().encode(x='Fabrica',y='N employees', color = 'Accident').properties(width=1000,height=300).interactive()
+chart = alt.Chart(data, title = 'Nº employees with/without accidents by Plant').mark_bar().encode(x='Fabrica',y='N employees', color = 'Accident').properties(width=1000,height=300).interactive()
 
 
 
@@ -73,7 +72,7 @@ n_employees = n_employees.reset_index()
 n_employees_acc = n_employees.loc[n_employees['Accident']=='Yes']
 n_employees_acc.rename(columns={'N employees':'N accidents', 'Tecnología':'Technology'}, inplace=True)
 
-chart2 = alt.Chart(n_employees_acc,title="Nº Accidents by Technology and Sevirity").mark_line().encode( 
+chart2 = alt.Chart(n_employees_acc,title="Nº Accidents by Technology and Sevirity").mark_bar().encode( 
     y = 'N accidents',
     x ='Technology',
     color='Severity').interactive() .properties(
