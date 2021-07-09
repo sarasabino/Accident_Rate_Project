@@ -87,6 +87,7 @@ Overview of app dashboard:
 
 
 ![Dashboard](https://raw.githubusercontent.com/sarasabino/maccident_rate_project/main/Images/Dashboard_overiew.png)
+!(https://raw.githubusercontent.com/sarasabino/maccident_rate_project/main/Images/Prediction_form_overview.PNG)
 
 ## Built with 🛠️
 
