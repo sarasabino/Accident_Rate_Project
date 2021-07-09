@@ -83,7 +83,10 @@ The model used in the application is a Random Forest Model.
 https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/05_streamlit_app.py
 
 Overview of app dashboard:
-https://raw.githubusercontent.com/sarasabino/Aaccident_rate_project/main/Images/Dashboard_overiew.PNG
+
+
+
+![Dashboard](https://raw.githubusercontent.com/sarasabino/maccident_rate_project/main/Images/Dashboard_overiew.PNG)
 
 ## Built with 🛠️
 
