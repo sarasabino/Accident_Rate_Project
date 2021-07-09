@@ -44,8 +44,7 @@ Repo Structure
     
 ```
 .
-All this files can be find in the following shared folder:
-
+Shared folder structure
 ```
 ├── Data                                       	# Data used and generated during this study
 │   ├── HS_Accidentabilidad.csv                         # Initial file with the accident's data of last years
