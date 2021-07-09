@@ -28,10 +28,10 @@ Above a description of the structure of the repo and the data folder is describe
 Repo Structure
 ```
 ├── Data 					#This data is used in streamlit app and needed to work in shared mode
-├── G_Plantas y Tech_streamlit.csv    		
-├── Total_staff_by_employee.csv
-├── random_forest_model
-└── staff_encoded.csv
+│   ├── G_Plantas y Tech_streamlit.csv    		
+│   ├── Total_staff_by_employee.csv
+│   ├── random_forest_model
+│   └── staff_encoded.csv
 ├── Images                                        # Images shown in this README
 |
 ├── src / Notebooks                               # Code
