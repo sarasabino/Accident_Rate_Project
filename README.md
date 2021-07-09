@@ -90,6 +90,8 @@ Overview of the form:
 
 ![alt text](https://raw.githubusercontent.com/sarasabino/Accident_Rate_Project/master/Images/Prediction_form_overview.PNG)
 
+In addition to the front-end application, in all the notebooks there are charts to illustrate the analysis as well as the trainning of the models.
+
 ## Built with 🛠️
 
 * Python
