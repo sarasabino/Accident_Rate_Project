@@ -12,17 +12,8 @@ This project aims to help reduce those  accidents numbers by predicting if an em
 As well as predicting the accidents/no accident of the employees on our company, an analysis has been made to identify the company structure, workers profile, location etc...
 
 ## Repo Structure
-```
 
-├── Data                                          # Data used and generated during this study
-│   ├── HS_Accidentabilidad.csv                         # Initial file with the accident's data of last years
-│   ├── G_Plantas y Tech.csv                            # This file contains the relation of the plants with their country & technology
-│   ├── G_Plantas y Tech_streamlit.csv                  # This data is only used in streamlit and contains the coordinates of the fabrics
-│   ├── Datos_plantilla.xlsx                            # Aggreagated staff data for analysis purposes
-│   ├── Total_staff_by_employee.csv                     # Data generated in notebook 00
-│   ├── random_forest_model                             # Saved Random Forest Model
-│   └──staff_encoded.csv                                # Data generated in notebook 03 with coded columns
-|
+```
 ├── Images                                        # Images shown in this README
 |
 ├── src / Notebooks                               # Code
@@ -38,6 +29,22 @@ As well as predicting the accidents/no accident of the employees on our company,
 └── README.md
     
 ```
+
+All this files can be find in the following shared folder:
+https://drive.google.com/drive/folders/1pzxQWsVrMSZhSZ3pHYQtUpX33XMRjN9g?usp=sharing
+
+```
+├── Data                                       	# Data used and generated during this study
+│   ├── HS_Accidentabilidad.csv                         # Initial file with the accident's data of last years
+│   ├── G_Plantas y Tech.csv                            # This file contains the relation of the plants with their country & technology
+│   ├── G_Plantas y Tech_streamlit.csv                  # This data is only used in streamlit and contains the coordinates of the fabrics
+│   ├── Datos_plantilla.xlsx                            # Aggreagated staff data for analysis purposes
+│   ├── Total_staff_by_employee.csv                     # Data generated in notebook 00
+│   ├── random_forest_model                             # Saved Random Forest Model
+└── └──staff_encoded.csv                                # Data generated in notebook 03 with coded columns
+
+```
+
 
 ## Objective
 
