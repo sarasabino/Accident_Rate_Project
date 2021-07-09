@@ -1,5 +1,5 @@
 # Accident Rate Project
-####DATA SCIENCE MASTER TFM
+###DATA SCIENCE MASTER TFM
 
 ### Author ✒️: Sara Sabino Martínez
 
@@ -9,9 +9,10 @@ The Occupational Safety and Health Agency (OSHA), the federal agency that establ
 
 Accidents directly impact two crucial factors for business: money and reputation. Companies have been trying to reduce their injuries rates during the last years, indeed incidence rates have fallen 75% since 1972. Although this good metric there is still a lot of work to do. In 2019, employees in the US suffered 2.8 million workplace injuries, in Spain 1.3 million accidents occured during 2019. 
 
-This project aims to help reduce those  accidents numbers by predicting if an employee is going to suffer one. This prediction will help companies to avoid those dangerous situations by being more aware of them and which factors influence more. 
+## Objective
 
-As well as predicting the accidents/no accident of the employees on our company, an analysis has been made to identify the company structure, workers profile, location etc...
+The main objetives of this project are in first place to understand and analyze to get conclusion from the data so broad the knowledge of the company and to predict which employees are going to have an accident in order to be able to avoid this situations.
+This prediction will help companies to avoid those dangerous situations by being more aware of them and which factors influence more. 
 
 ## Instructions and structure
 
@@ -56,8 +57,6 @@ All this files can be find in the following shared folder:
 
 ```
 
-
-## Objective
 
 ## Conclusions
 ```
