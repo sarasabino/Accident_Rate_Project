@@ -21,7 +21,7 @@ This prediction will help companies to avoid those dangerous situations by being
 
 In order to run the data please download the notebooks contained in this repository. Each notebook contains at the top a cell with the code dependencies and version used during its execution.The data needed is in the following shared folder: https://drive.google.com/drive/folders/1pzxQWsVrMSZhSZ3pHYQtUpX33XMRjN9g?usp=sharing
 
-The fron end app is developed in streamlit and the link is shared below.
+The front end app is developed in streamlit and the link is shared below.
 
 Above a description of the structure of the repo and the data folder is described:
 
