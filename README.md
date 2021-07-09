@@ -62,6 +62,11 @@ Shared folder structure
 
 
 ## Conclusions
+
+On the table below we can see a summary of all the results obtained in each model that has been performed. 
+As we can see the best results were achieve by the Decision Tree algorithms and the Neuronal Networks. The worse result was obtained by the Logistic Regression model.
+
+
 ```
 
 	Model			Accuracy	Prec No		Prec Yes
