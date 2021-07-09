@@ -1,4 +1,6 @@
 # Accident Rate Project
+####DATA SCIENCE MASTER TFM
+
 ### Author ✒️: Sara Sabino Martínez
 
 An incidence rate (also known as an accident rate) is a way of measuring the safety of a workplace. The rate is calculated based on the number of accidents that happen during a particular period of time.
@@ -11,8 +13,15 @@ This project aims to help reduce those  accidents numbers by predicting if an em
 
 As well as predicting the accidents/no accident of the employees on our company, an analysis has been made to identify the company structure, workers profile, location etc...
 
-## Repo Structure
+## Instructions and structure
 
+In order to run the data please download the notebooks contained in this repository. Each notebook contains at the top a cell with the code dependencies and version used during its execution.The data needed is in the following shared folder: https://drive.google.com/drive/folders/1pzxQWsVrMSZhSZ3pHYQtUpX33XMRjN9g?usp=sharing
+
+The fron end app is develop in streamlit and the link is shared below.
+
+Above a description of the structure of the repo and the data folder is described:
+
+Repo Structure
 ```
 ├── Data 
 │   └── G_Plantas y Tech_streamlit.csv    		# This data is only used in streamlit and contains the coordinates of the fabrics
@@ -28,12 +37,12 @@ As well as predicting the accidents/no accident of the employees on our company,
 │   ├── 05_streamlit_app.py                               # Streamlit app py code
 │   └── requirements.txt                                  # Requirements file to run the streamlit app
 |
+├── Memoria_Accident_Rate.pdf
 └── README.md
     
 ```
 
 All this files can be find in the following shared folder:
-https://drive.google.com/drive/folders/1pzxQWsVrMSZhSZ3pHYQtUpX33XMRjN9g?usp=sharing
 
 ```
 ├── Data                                       	# Data used and generated during this study
@@ -66,6 +75,10 @@ https://drive.google.com/drive/folders/1pzxQWsVrMSZhSZ3pHYQtUpX33XMRjN9g?usp=sha
 9	Neuronal Network	0.908714		
 ```
 ## Link to Front-end App 🚀
+
+The front-end of this project is develop in a streamlit application, the code can be found in this notebook. 
+The app is though to be for a client in a company that wants to see a analytical dashboard of the accidents in the company and then is going to have the option to complete a form in order to find if a particular employee is goign to have an accident.
+The model used in the application is a Random Forest Model.
 
 https://share.streamlit.io/sarasabino/accident_rate_project/main/Src/Notebooks/05_streamlit_app.py
 
